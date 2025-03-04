@@ -1,0 +1,6 @@
+@SpanTechTask_HostAddress = http://localhost:5095
+
+GET {{SpanTechTask_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
