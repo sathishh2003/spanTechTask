@@ -62,7 +62,15 @@
               "target": "Package",
               "version": "[8.6.0, )"
             },
-            "NLog.Extensions.Logging": {
+            "NLog": {
+              "target": "Package",
+              "version": "[5.4.0, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[5.4.0, )"
+            },
+            "NLog.WindowsEventLog": {
               "target": "Package",
               "version": "[5.4.0, )"
             },

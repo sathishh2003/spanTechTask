@@ -1,17 +1,19 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using NLog;
+
 using SpanTechTask.Models;
 using SpanTechTask.Services;
 
 namespace SpanTechTask.Controllers
 {
-    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class EmployeeController : ControllerBase
     {
 
         private readonly EmployeeService _employeeService;
+        private static readonly NLog.ILogger logger = LogManager.GetCurrentClassLogger();
 
         public EmployeeController(EmployeeService employeeService)
         {
@@ -25,39 +27,30 @@ namespace SpanTechTask.Controllers
             return Ok(employees);
         }
 
-        [HttpGet("{id}")]
-        public async Task<IActionResult> GetById(int id)
+        [HttpGet("GetUserById{empId}")]
+        public async Task<IActionResult> GetById(int empId)
         {
-            var employee = await _employeeService.GetEmployeeByIdAsync(id);
+            var employee = await _employeeService.GetEmployeeByIdAsync(empId);
             if (employee == null) return NotFound();
             return Ok(employee);
         }
 
-        [Authorize(Roles = "admin")]
-        [HttpPost]
-        public async Task<IActionResult> Add([FromBody] EmployeeModel employee)
+        [HttpGet("GetEmployeeByDepartment{department}")]
+        public async Task<IActionResult> GetEmployeeByDepartment(string department)
         {
-            await _employeeService.AddEmployeeAsync(employee);
-            return CreatedAtAction(nameof(GetById), new { id = employee.Id }, employee);
+            var employee = await _employeeService.GetEmployeeByDepartmentAsync(department);
+            if (employee == null) return NotFound();
+            return Ok(employee);
         }
 
-        [Authorize(Roles = "admin")]
-        [HttpPut("{id}")]
-        public async Task<IActionResult> Update(int id, [FromBody] EmployeeModel employee)
+        [HttpGet("log")]
+        public IActionResult LogTest()
         {
-            employee.Id = id;
-            var result = await _employeeService.UpdateEmployeeAsync(employee);
-            if (result == 0) return NotFound();
-            return NoContent();
-        }
-
-        [Authorize(Roles = "admin")]
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> Delete(int id)
-        {
-            var result = await _employeeService.DeleteEmployeeAsync(id);
-            if (result == 0) return NotFound();
-            return NoContent();
+            logger.Debug("Debug log test");
+            logger.Info("Info log test");
+            logger.Warn("Warning log test");
+            logger.Error("Error log test");
+            return Ok("Logs have been triggered!");
         }
     }
 

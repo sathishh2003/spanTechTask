@@ -12,31 +12,19 @@ namespace SpanTechTask.Services
             _employeeRepository = employeeRepository;
         }
 
-        public Task<List<EmployeeModel>> GetAllEmployeesAsync()
+        public Task<List<EmployeeViewModel>> GetAllEmployeesAsync()
         {
             return _employeeRepository.GetAllEmployeesAsync();
         }
 
-        public Task<EmployeeModel> GetEmployeeByIdAsync(int id)
+        public Task<EmployeeViewModel?> GetEmployeeByIdAsync(int empId)
         {
-            return _employeeRepository.GetEmployeeByIdAsync(id);
+            return _employeeRepository.GetEmployeeByIdAsync(empId);
+         } 
+        
+        public Task<List<EmployeeViewModel>> GetEmployeeByDepartmentAsync(string department)
+        {
+            return _employeeRepository.GetEmployeeByDepartmentAsync(department);
          }
-
-        public Task<int> AddEmployeeAsync(EmployeeModel employee)
-        {
-            return _employeeRepository.AddEmployeeAsync(employee);
-        }
-
-
-        public Task<int> UpdateEmployeeAsync(EmployeeModel employee)
-        {
-            return _employeeRepository.UpdateEmployeeAsync(employee);
-        }
-
-        public Task<int> DeleteEmployeeAsync(int id)
-        {
-            return _employeeRepository.DeleteEmployeeAsync(id);
-        }
-
     }
 }

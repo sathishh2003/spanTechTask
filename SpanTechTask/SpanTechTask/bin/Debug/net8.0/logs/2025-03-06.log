@@ -1,0 +1,950 @@
+2025-03-06 02:11:49.7934 [Debug] Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2025-03-06 02:11:50.1272 [Debug] Hosting starting 
+2025-03-06 02:11:50.3662 [Info] User profile is available. Using 'C:\Users\SATHISHKUMAR\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-06 02:11:50.4548 [Debug] Reading data from file 'C:\Users\SATHISHKUMAR\AppData\Local\ASP.NET\DataProtection-Keys\key-cd37da84-b349-448d-a9d3-d07d98e87a7a.xml'. 
+2025-03-06 02:11:50.4853 [Debug] Found key {cd37da84-b349-448d-a9d3-d07d98e87a7a}. 
+2025-03-06 02:11:50.5293 [Debug] Considering key {cd37da84-b349-448d-a9d3-d07d98e87a7a} with expiration date 2025-06-02 20:39:57Z as default key. 
+2025-03-06 02:11:50.5293 [Debug] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-03-06 02:11:50.5436 [Debug] Decrypting secret element using Windows DPAPI. 
+2025-03-06 02:11:50.5436 [Debug] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-03-06 02:11:50.5651 [Debug] Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2025-03-06 02:11:50.5651 [Debug] Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2025-03-06 02:11:50.5651 [Debug] Using key {cd37da84-b349-448d-a9d3-d07d98e87a7a} as the default key. 
+2025-03-06 02:11:50.5749 [Debug] Key ring with default key {cd37da84-b349-448d-a9d3-d07d98e87a7a} was loaded during application startup. 
+2025-03-06 02:11:50.5928 [Debug] Middleware loaded 
+2025-03-06 02:11:50.6057 [Debug] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16509 B). 
+2025-03-06 02:11:50.6057 [Debug] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B). 
+2025-03-06 02:11:50.9178 [Debug] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true 
+2025-03-06 02:11:51.0388 [Info] Now listening on: http://localhost:5095 
+2025-03-06 02:11:51.0388 [Debug] Loaded hosting startup assembly SpanTechTask 
+2025-03-06 02:11:51.0388 [Debug] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery 
+2025-03-06 02:11:51.0388 [Debug] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2025-03-06 02:11:51.0388 [Debug] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2025-03-06 02:11:51.2964 [Info] Application started. Press Ctrl+C to shut down. 
+2025-03-06 02:11:51.2964 [Info] Hosting environment: Development 
+2025-03-06 02:11:51.2964 [Info] Content root path: C:\Users\SATHISHKUMAR\source\repos\SpanTechTask\SpanTechTask 
+2025-03-06 02:11:51.2964 [Debug] Hosting started 
+2025-03-06 02:11:51.4366 [Debug] Connection id "0HNAS4OK7S7EP" accepted. 
+2025-03-06 02:11:51.4366 [Debug] Connection id "0HNAS4OK7S7EQ" accepted. 
+2025-03-06 02:11:51.4366 [Debug] Connection id "0HNAS4OK7S7EP" received FIN. 
+2025-03-06 02:11:51.4366 [Debug] Connection id "0HNAS4OK7S7EQ" received FIN. 
+2025-03-06 02:11:51.4366 [Debug] Connection id "0HNAS4OK7S7EP" started. 
+2025-03-06 02:11:51.4366 [Debug] Connection id "0HNAS4OK7S7EQ" started. 
+2025-03-06 02:11:51.4651 [Debug] Connection id "0HNAS4OK7S7EQ" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2025-03-06 02:11:51.4651 [Debug] Connection id "0HNAS4OK7S7EP" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2025-03-06 02:11:51.4651 [Debug] Connection id "0HNAS4OK7S7EQ" disconnecting. 
+2025-03-06 02:11:51.4651 [Debug] Connection id "0HNAS4OK7S7EP" disconnecting. 
+2025-03-06 02:11:51.4651 [Debug] Connection id "0HNAS4OK7S7EQ" stopped. 
+2025-03-06 02:11:51.4651 [Debug] Connection id "0HNAS4OK7S7EP" stopped. 
+2025-03-06 02:11:52.3142 [Debug] Connection id "0HNAS4OK7S7ER" accepted. 
+2025-03-06 02:11:52.3735 [Debug] Connection id "0HNAS4OK7S7ES" accepted. 
+2025-03-06 02:11:52.3735 [Debug] Connection id "0HNAS4OK7S7ER" started. 
+2025-03-06 02:11:52.3735 [Debug] Connection id "0HNAS4OK7S7ES" started. 
+2025-03-06 02:11:52.5191 [Info] Request starting HTTP/1.1 GET http://localhost:5095/swagger/index.html - - - 
+2025-03-06 02:11:53.0699 [Debug] Wildcard detected, all requests with hosts will be allowed. 
+2025-03-06 02:11:53.1279 [Debug] No candidates found for the request path '/swagger/index.html' 
+2025-03-06 02:11:53.1279 [Debug] Request did not match any endpoints 
+2025-03-06 02:11:53.2626 [Debug] Response markup is scheduled to include Browser Link script injection. 
+2025-03-06 02:11:53.2626 [Debug] Response markup is scheduled to include browser refresh script injection. 
+2025-03-06 02:11:53.3101 [Debug] Response markup was updated to include Browser Link script injection. 
+2025-03-06 02:11:53.3101 [Debug] Response markup was updated to include browser refresh script injection. 
+2025-03-06 02:11:53.3101 [Debug] Connection id "0HNAS4OK7S7ER" completed keep alive response. 
+2025-03-06 02:11:53.3683 [Info] Request finished HTTP/1.1 GET http://localhost:5095/swagger/index.html - 200 - text/html;charset=utf-8 872.4704ms 
+2025-03-06 02:11:53.4096 [Info] Request starting HTTP/1.1 GET http://localhost:5095/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-06 02:11:53.4096 [Info] Request starting HTTP/1.1 GET http://localhost:5095/_vs/browserLink - - - 
+2025-03-06 02:11:53.4096 [Debug] Script injected: /_framework/aspnetcore-browser-refresh.js 
+2025-03-06 02:11:53.4096 [Debug] Connection id "0HNAS4OK7S7ER" completed keep alive response. 
+2025-03-06 02:11:53.4096 [Info] Request finished HTTP/1.1 GET http://localhost:5095/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript;+charset=utf-8 7.5697ms 
+2025-03-06 02:11:53.6810 [Debug] Connection id "0HNAS4OK7S7ES" completed keep alive response. 
+2025-03-06 02:11:53.6810 [Info] Request finished HTTP/1.1 GET http://localhost:5095/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 270.7373ms 
+2025-03-06 02:11:53.8929 [Info] Request starting HTTP/1.1 GET http://localhost:5095/swagger/v1/swagger.json - - - 
+2025-03-06 02:11:53.8929 [Debug] No candidates found for the request path '/swagger/v1/swagger.json' 
+2025-03-06 02:11:53.8929 [Debug] Request did not match any endpoints 
+2025-03-06 02:11:53.9517 [Debug] Connection id "0HNAS4OK7S7ES" completed keep alive response. 
+2025-03-06 02:11:53.9517 [Info] Request finished HTTP/1.1 GET http://localhost:5095/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 59.5829ms 
+2025-03-06 02:11:54.7128 [Debug] Connection id "0HNAS4OK7S7ER" received FIN. 
+2025-03-06 02:11:54.7128 [Debug] Connection id "0HNAS4OK7S7ES" received FIN. 
+2025-03-06 02:11:54.7163 [Debug] Connection id "0HNAS4OK7S7ER" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2025-03-06 02:11:54.7163 [Debug] Connection id "0HNAS4OK7S7ER" disconnecting. 
+2025-03-06 02:11:54.7163 [Debug] Connection id "0HNAS4OK7S7ES" disconnecting. 
+2025-03-06 02:11:54.7163 [Debug] Connection id "0HNAS4OK7S7ES" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2025-03-06 02:11:54.7163 [Debug] Connection id "0HNAS4OK7S7ER" stopped. 
+2025-03-06 02:11:54.7163 [Debug] Connection id "0HNAS4OK7S7ES" stopped. 
+2025-03-06 02:11:59.2448 [Debug] Connection id "0HNAS4OK7S7ET" accepted. 
+2025-03-06 02:11:59.2456 [Debug] Connection id "0HNAS4OK7S7ET" started. 
+2025-03-06 02:11:59.2456 [Info] Request starting HTTP/1.1 GET http://localhost:5095/api/Employee/log - - - 
+2025-03-06 02:11:59.2456 [Debug] 1 candidate(s) found for the request path '/api/Employee/log' 
+2025-03-06 02:11:59.2672 [Debug] Endpoint 'SpanTechTask.Controllers.EmployeeController.LogTest (SpanTechTask)' with route pattern 'api/Employee/log' is valid for the request path '/api/Employee/log' 
+2025-03-06 02:11:59.2672 [Debug] Request matched endpoint 'SpanTechTask.Controllers.EmployeeController.LogTest (SpanTechTask)' 
+2025-03-06 02:11:59.2672 [Debug] Static files was skipped as the request already matched an endpoint. 
+2025-03-06 02:11:59.2672 [Warn] Failed to determine the https port for redirect. 
+2025-03-06 02:11:59.4555 [Debug] AuthenticationScheme: Bearer was not authenticated. 
+2025-03-06 02:11:59.4555 [Info] Executing endpoint 'SpanTechTask.Controllers.EmployeeController.LogTest (SpanTechTask)' 
+2025-03-06 02:11:59.5016 [Info] Route matched with {action = "LogTest", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult LogTest() on controller SpanTechTask.Controllers.EmployeeController (SpanTechTask). 
+2025-03-06 02:11:59.5016 [Debug] Execution plan of authorization filters (in the following order): None 
+2025-03-06 02:11:59.5016 [Debug] Execution plan of resource filters (in the following order): None 
+2025-03-06 02:11:59.5016 [Debug] Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2025-03-06 02:11:59.5016 [Debug] Execution plan of exception filters (in the following order): None 
+2025-03-06 02:11:59.5016 [Debug] Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2025-03-06 02:11:59.5016 [Debug] Executing controller factory for controller SpanTechTask.Controllers.EmployeeController (SpanTechTask) 
+2025-03-06 02:11:59.5016 [Debug] Executed controller factory for controller SpanTechTask.Controllers.EmployeeController (SpanTechTask) 
+2025-03-06 02:11:59.6087 [Info] Executing action method SpanTechTask.Controllers.EmployeeController.LogTest (SpanTechTask) - Validation state: Valid 
+2025-03-06 02:11:59.6087 [Debug] Debug log test 
+2025-03-06 02:11:59.6087 [Info] Info log test 
+2025-03-06 02:11:59.6087 [Warn] Warning log test 
+2025-03-06 02:11:59.6087 [Error] Error log test 
+2025-03-06 02:11:59.6280 [Info] Executed action method SpanTechTask.Controllers.EmployeeController.LogTest (SpanTechTask), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 13.2942ms. 
+2025-03-06 02:11:59.6366 [Debug] List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2025-03-06 02:11:59.6366 [Debug] No information found on request to perform content negotiation. 
+2025-03-06 02:11:59.6366 [Debug] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2025-03-06 02:11:59.6366 [Debug] Attempting to select the first formatter in the output formatters list which can write the result. 
+2025-03-06 02:11:59.6366 [Debug] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response. 
+2025-03-06 02:11:59.6366 [Info] Executing OkObjectResult, writing value of type 'System.String'. 
+2025-03-06 02:11:59.6574 [Info] Executed action SpanTechTask.Controllers.EmployeeController.LogTest (SpanTechTask) in 146.7793ms 
+2025-03-06 02:11:59.6574 [Info] Executed endpoint 'SpanTechTask.Controllers.EmployeeController.LogTest (SpanTechTask)' 
+2025-03-06 02:11:59.6574 [Debug] Connection id "0HNAS4OK7S7ET" completed keep alive response. 
+2025-03-06 02:11:59.6574 [Info] Request finished HTTP/1.1 GET http://localhost:5095/api/Employee/log - 200 - text/plain;+charset=utf-8 411.6611ms 
+2025-03-06 02:11:59.7094 [Debug] Connection id "0HNAS4OK7S7ET" received FIN. 
+2025-03-06 02:11:59.7094 [Debug] Connection id "0HNAS4OK7S7ET" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2025-03-06 02:11:59.7094 [Debug] Connection id "0HNAS4OK7S7ET" disconnecting. 
+2025-03-06 02:11:59.7094 [Debug] Connection id "0HNAS4OK7S7ET" stopped. 
+2025-03-06 02:14:56.1933 [Debug] Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2025-03-06 02:14:56.3830 [Debug] Hosting starting 
+2025-03-06 02:14:56.4531 [Info] User profile is available. Using 'C:\Users\SATHISHKUMAR\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-06 02:14:56.4897 [Debug] Reading data from file 'C:\Users\SATHISHKUMAR\AppData\Local\ASP.NET\DataProtection-Keys\key-cd37da84-b349-448d-a9d3-d07d98e87a7a.xml'. 
+2025-03-06 02:14:56.5058 [Debug] Found key {cd37da84-b349-448d-a9d3-d07d98e87a7a}. 
+2025-03-06 02:14:56.5253 [Debug] Considering key {cd37da84-b349-448d-a9d3-d07d98e87a7a} with expiration date 2025-06-02 20:39:57Z as default key. 
+2025-03-06 02:14:56.5303 [Debug] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-03-06 02:14:56.5429 [Debug] Decrypting secret element using Windows DPAPI. 
+2025-03-06 02:14:56.5429 [Debug] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-03-06 02:14:56.5429 [Debug] Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2025-03-06 02:14:56.5429 [Debug] Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2025-03-06 02:14:56.5429 [Debug] Using key {cd37da84-b349-448d-a9d3-d07d98e87a7a} as the default key. 
+2025-03-06 02:14:56.5429 [Debug] Key ring with default key {cd37da84-b349-448d-a9d3-d07d98e87a7a} was loaded during application startup. 
+2025-03-06 02:14:56.5753 [Debug] Middleware loaded 
+2025-03-06 02:14:56.5753 [Debug] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16509 B). 
+2025-03-06 02:14:56.5753 [Debug] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B). 
+2025-03-06 02:14:56.9183 [Debug] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true 
+2025-03-06 02:14:57.0678 [Info] Now listening on: http://localhost:5095 
+2025-03-06 02:14:57.0678 [Debug] Loaded hosting startup assembly SpanTechTask 
+2025-03-06 02:14:57.0678 [Debug] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery 
+2025-03-06 02:14:57.0678 [Debug] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2025-03-06 02:14:57.0678 [Debug] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2025-03-06 02:14:57.2215 [Info] Application started. Press Ctrl+C to shut down. 
+2025-03-06 02:14:57.2215 [Info] Hosting environment: Development 
+2025-03-06 02:14:57.2215 [Info] Content root path: C:\Users\SATHISHKUMAR\source\repos\SpanTechTask\SpanTechTask 
+2025-03-06 02:14:57.2215 [Debug] Hosting started 
+2025-03-06 02:14:57.4896 [Debug] Connection id "0HNAS4QBM7IRU" received FIN. 
+2025-03-06 02:14:57.4896 [Debug] Connection id "0HNAS4QBM7IRV" received FIN. 
+2025-03-06 02:14:57.5248 [Debug] Connection id "0HNAS4QBM7IRU" accepted. 
+2025-03-06 02:14:57.5248 [Debug] Connection id "0HNAS4QBM7IRV" accepted. 
+2025-03-06 02:14:57.5248 [Debug] Connection id "0HNAS4QBM7IRV" started. 
+2025-03-06 02:14:57.5248 [Debug] Connection id "0HNAS4QBM7IRU" started. 
+2025-03-06 02:14:57.5426 [Debug] Connection id "0HNAS4QBM7IRV" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2025-03-06 02:14:57.5426 [Debug] Connection id "0HNAS4QBM7IRU" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2025-03-06 02:14:57.5444 [Debug] Connection id "0HNAS4QBM7IRV" disconnecting. 
+2025-03-06 02:14:57.5444 [Debug] Connection id "0HNAS4QBM7IRU" disconnecting. 
+2025-03-06 02:14:57.5444 [Debug] Connection id "0HNAS4QBM7IRU" stopped. 
+2025-03-06 02:14:57.5444 [Debug] Connection id "0HNAS4QBM7IRV" stopped. 
+2025-03-06 02:14:58.0573 [Debug] Connection id "0HNAS4QBM7IS0" accepted. 
+2025-03-06 02:14:58.0591 [Debug] Connection id "0HNAS4QBM7IS0" started. 
+2025-03-06 02:14:58.0591 [Debug] Connection id "0HNAS4QBM7IS1" accepted. 
+2025-03-06 02:14:58.0591 [Debug] Connection id "0HNAS4QBM7IS1" started. 
+2025-03-06 02:14:58.2994 [Info] Request starting HTTP/1.1 GET http://localhost:5095/swagger/index.html - - - 
+2025-03-06 02:14:58.9137 [Debug] Wildcard detected, all requests with hosts will be allowed. 
+2025-03-06 02:14:58.9736 [Debug] No candidates found for the request path '/swagger/index.html' 
+2025-03-06 02:14:58.9736 [Debug] Request did not match any endpoints 
+2025-03-06 02:14:59.1157 [Debug] Response markup is scheduled to include Browser Link script injection. 
+2025-03-06 02:14:59.1157 [Debug] Response markup is scheduled to include browser refresh script injection. 
+2025-03-06 02:14:59.1618 [Debug] Response markup was updated to include Browser Link script injection. 
+2025-03-06 02:14:59.1618 [Debug] Response markup was updated to include browser refresh script injection. 
+2025-03-06 02:14:59.1618 [Debug] Connection id "0HNAS4QBM7IS0" completed keep alive response. 
+2025-03-06 02:14:59.1719 [Info] Request finished HTTP/1.1 GET http://localhost:5095/swagger/index.html - 200 - text/html;charset=utf-8 889.4845ms 
+2025-03-06 02:14:59.2073 [Info] Request starting HTTP/1.1 GET http://localhost:5095/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-06 02:14:59.2073 [Info] Request starting HTTP/1.1 GET http://localhost:5095/_vs/browserLink - - - 
+2025-03-06 02:14:59.2288 [Debug] Script injected: /_framework/aspnetcore-browser-refresh.js 
+2025-03-06 02:14:59.2288 [Debug] Connection id "0HNAS4QBM7IS0" completed keep alive response. 
+2025-03-06 02:14:59.2307 [Info] Request finished HTTP/1.1 GET http://localhost:5095/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript;+charset=utf-8 23.6332ms 
+2025-03-06 02:14:59.3496 [Debug] Connection id "0HNAS4QBM7IS1" completed keep alive response. 
+2025-03-06 02:14:59.3496 [Info] Request finished HTTP/1.1 GET http://localhost:5095/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 141.9568ms 
+2025-03-06 02:14:59.6366 [Info] Request starting HTTP/1.1 GET http://localhost:5095/swagger/v1/swagger.json - - - 
+2025-03-06 02:14:59.6398 [Debug] No candidates found for the request path '/swagger/v1/swagger.json' 
+2025-03-06 02:14:59.6398 [Debug] Request did not match any endpoints 
+2025-03-06 02:14:59.6978 [Debug] Connection id "0HNAS4QBM7IS1" completed keep alive response. 
+2025-03-06 02:14:59.6978 [Info] Request finished HTTP/1.1 GET http://localhost:5095/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 61.8300ms 
+2025-03-06 02:15:04.9656 [Debug] Connection id "0HNAS4QBM7IS1" received FIN. 
+2025-03-06 02:15:04.9656 [Debug] Connection id "0HNAS4QBM7IS0" received FIN. 
+2025-03-06 02:15:04.9656 [Debug] Connection id "0HNAS4QBM7IS1" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2025-03-06 02:15:04.9656 [Debug] Connection id "0HNAS4QBM7IS1" disconnecting. 
+2025-03-06 02:15:04.9656 [Debug] Connection id "0HNAS4QBM7IS0" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2025-03-06 02:15:04.9656 [Debug] Connection id "0HNAS4QBM7IS0" disconnecting. 
+2025-03-06 02:15:04.9813 [Debug] Connection id "0HNAS4QBM7IS0" stopped. 
+2025-03-06 02:15:04.9813 [Debug] Connection id "0HNAS4QBM7IS1" stopped. 
+2025-03-06 02:17:52.3332 [Debug] Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2025-03-06 02:17:52.5203 [Debug] Hosting starting 
+2025-03-06 02:17:52.6532 [Info] User profile is available. Using 'C:\Users\SATHISHKUMAR\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-06 02:17:52.7202 [Debug] Reading data from file 'C:\Users\SATHISHKUMAR\AppData\Local\ASP.NET\DataProtection-Keys\key-cd37da84-b349-448d-a9d3-d07d98e87a7a.xml'. 
+2025-03-06 02:17:52.7455 [Debug] Found key {cd37da84-b349-448d-a9d3-d07d98e87a7a}. 
+2025-03-06 02:17:52.7817 [Debug] Considering key {cd37da84-b349-448d-a9d3-d07d98e87a7a} with expiration date 2025-06-02 20:39:57Z as default key. 
+2025-03-06 02:17:52.7817 [Debug] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-03-06 02:17:52.7941 [Debug] Decrypting secret element using Windows DPAPI. 
+2025-03-06 02:17:52.7941 [Debug] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-03-06 02:17:52.7941 [Debug] Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2025-03-06 02:17:52.7941 [Debug] Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2025-03-06 02:17:52.7941 [Debug] Using key {cd37da84-b349-448d-a9d3-d07d98e87a7a} as the default key. 
+2025-03-06 02:17:52.7941 [Debug] Key ring with default key {cd37da84-b349-448d-a9d3-d07d98e87a7a} was loaded during application startup. 
+2025-03-06 02:17:52.8168 [Debug] Middleware loaded 
+2025-03-06 02:17:52.8257 [Debug] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16509 B). 
+2025-03-06 02:17:52.8257 [Debug] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B). 
+2025-03-06 02:17:53.1087 [Debug] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true 
+2025-03-06 02:17:53.2232 [Info] Now listening on: http://localhost:5095 
+2025-03-06 02:17:53.2232 [Debug] Loaded hosting startup assembly SpanTechTask 
+2025-03-06 02:17:53.2232 [Debug] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery 
+2025-03-06 02:17:53.2232 [Debug] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2025-03-06 02:17:53.2232 [Debug] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2025-03-06 02:17:53.2925 [Info] Application started. Press Ctrl+C to shut down. 
+2025-03-06 02:17:53.2925 [Info] Hosting environment: Development 
+2025-03-06 02:17:53.2925 [Info] Content root path: C:\Users\SATHISHKUMAR\source\repos\SpanTechTask\SpanTechTask 
+2025-03-06 02:17:53.2925 [Debug] Hosting started 
+2025-03-06 02:17:53.4089 [Debug] Connection id "0HNAS4S03TSFQ" accepted. 
+2025-03-06 02:17:53.4089 [Debug] Connection id "0HNAS4S03TSFR" accepted. 
+2025-03-06 02:17:53.4190 [Debug] Connection id "0HNAS4S03TSFQ" started. 
+2025-03-06 02:17:53.4190 [Debug] Connection id "0HNAS4S03TSFR" started. 
+2025-03-06 02:17:53.4369 [Debug] Connection id "0HNAS4S03TSFQ" received FIN. 
+2025-03-06 02:17:53.4369 [Debug] Connection id "0HNAS4S03TSFR" received FIN. 
+2025-03-06 02:17:53.4613 [Debug] Connection id "0HNAS4S03TSFR" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2025-03-06 02:17:53.4613 [Debug] Connection id "0HNAS4S03TSFQ" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2025-03-06 02:17:53.4613 [Debug] Connection id "0HNAS4S03TSFR" disconnecting. 
+2025-03-06 02:17:53.4613 [Debug] Connection id "0HNAS4S03TSFQ" disconnecting. 
+2025-03-06 02:17:53.4681 [Debug] Connection id "0HNAS4S03TSFR" stopped. 
+2025-03-06 02:17:53.4681 [Debug] Connection id "0HNAS4S03TSFQ" stopped. 
+2025-03-06 02:17:54.3518 [Debug] Connection id "0HNAS4S03TSFS" accepted. 
+2025-03-06 02:17:54.3518 [Debug] Connection id "0HNAS4S03TSFS" started. 
+2025-03-06 02:17:54.3562 [Debug] Connection id "0HNAS4S03TSFT" accepted. 
+2025-03-06 02:17:54.3562 [Debug] Connection id "0HNAS4S03TSFT" started. 
+2025-03-06 02:17:54.6595 [Info] Request starting HTTP/1.1 GET http://localhost:5095/swagger/index.html - - - 
+2025-03-06 02:17:55.1503 [Debug] Wildcard detected, all requests with hosts will be allowed. 
+2025-03-06 02:17:55.1781 [Debug] Connection id "0HNAS4S03TSFT" received FIN. 
+2025-03-06 02:17:55.1781 [Debug] Connection id "0HNAS4S03TSFT" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2025-03-06 02:17:55.1781 [Debug] Connection id "0HNAS4S03TSFT" disconnecting. 
+2025-03-06 02:17:55.1781 [Debug] Connection id "0HNAS4S03TSFT" stopped. 
+2025-03-06 02:17:55.2032 [Debug] No candidates found for the request path '/swagger/index.html' 
+2025-03-06 02:17:55.2032 [Debug] Request did not match any endpoints 
+2025-03-06 02:17:55.3386 [Debug] Response markup is scheduled to include Browser Link script injection. 
+2025-03-06 02:17:55.3421 [Debug] Response markup is scheduled to include browser refresh script injection. 
+2025-03-06 02:17:55.4081 [Debug] Response markup was updated to include Browser Link script injection. 
+2025-03-06 02:17:55.4081 [Debug] Response markup was updated to include browser refresh script injection. 
+2025-03-06 02:17:55.4081 [Debug] Connection id "0HNAS4S03TSFS" completed keep alive response. 
+2025-03-06 02:17:55.4395 [Info] Request finished HTTP/1.1 GET http://localhost:5095/swagger/index.html - 200 - text/html;charset=utf-8 788.6066ms 
+2025-03-06 02:17:55.4395 [Debug] Connection id "0HNAS4S03TSFU" accepted. 
+2025-03-06 02:17:55.4496 [Info] Request starting HTTP/1.1 GET http://localhost:5095/_vs/browserLink - - - 
+2025-03-06 02:17:55.4496 [Debug] Connection id "0HNAS4S03TSFU" started. 
+2025-03-06 02:17:55.5001 [Info] Request starting HTTP/1.1 GET http://localhost:5095/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-06 02:17:55.5176 [Debug] Script injected: /_framework/aspnetcore-browser-refresh.js 
+2025-03-06 02:17:55.5176 [Debug] Connection id "0HNAS4S03TSFU" completed keep alive response. 
+2025-03-06 02:17:55.5176 [Info] Request finished HTTP/1.1 GET http://localhost:5095/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript;+charset=utf-8 18.4873ms 
+2025-03-06 02:17:55.6917 [Debug] Connection id "0HNAS4S03TSFS" completed keep alive response. 
+2025-03-06 02:17:55.6917 [Info] Request finished HTTP/1.1 GET http://localhost:5095/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 249.3395ms 
+2025-03-06 02:17:55.9923 [Info] Request starting HTTP/1.1 GET http://localhost:5095/swagger/v1/swagger.json - - - 
+2025-03-06 02:17:55.9967 [Debug] No candidates found for the request path '/swagger/v1/swagger.json' 
+2025-03-06 02:17:55.9967 [Debug] Request did not match any endpoints 
+2025-03-06 02:17:56.0763 [Debug] Connection id "0HNAS4S03TSFS" completed keep alive response. 
+2025-03-06 02:17:56.0763 [Info] Request finished HTTP/1.1 GET http://localhost:5095/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 84.6237ms 
+2025-03-06 02:18:00.1855 [Debug] Connection id "0HNAS4S03TSFU" received FIN. 
+2025-03-06 02:18:00.1855 [Debug] Connection id "0HNAS4S03TSFS" received FIN. 
+2025-03-06 02:18:00.1855 [Debug] Connection id "0HNAS4S03TSFU" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2025-03-06 02:18:00.1855 [Debug] Connection id "0HNAS4S03TSFS" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2025-03-06 02:18:00.1855 [Debug] Connection id "0HNAS4S03TSFU" disconnecting. 
+2025-03-06 02:18:00.1855 [Debug] Connection id "0HNAS4S03TSFS" disconnecting. 
+2025-03-06 02:18:00.1855 [Debug] Connection id "0HNAS4S03TSFS" stopped. 
+2025-03-06 02:18:00.1999 [Debug] Connection id "0HNAS4S03TSFU" stopped. 
+2025-03-06 02:18:55.6399 [Debug] Connection id "0HNAS4S03TSFV" accepted. 
+2025-03-06 02:18:55.6399 [Debug] Connection id "0HNAS4S03TSFV" started. 
+2025-03-06 02:18:55.6758 [Info] Request starting HTTP/1.1 POST http://localhost:5095/login - application/json 57 
+2025-03-06 02:18:55.6858 [Debug] 1 candidate(s) found for the request path '/login' 
+2025-03-06 02:18:55.6858 [Debug] Endpoint 'SpanTechTask.Controllers.AuthController.Login (SpanTechTask)' with route pattern 'login' is valid for the request path '/login' 
+2025-03-06 02:18:55.6858 [Debug] Request matched endpoint 'SpanTechTask.Controllers.AuthController.Login (SpanTechTask)' 
+2025-03-06 02:18:55.6858 [Debug] Static files was skipped as the request already matched an endpoint. 
+2025-03-06 02:18:55.6858 [Warn] Failed to determine the https port for redirect. 
+2025-03-06 02:18:55.8440 [Debug] AuthenticationScheme: Bearer was not authenticated. 
+2025-03-06 02:18:55.8440 [Info] Executing endpoint 'SpanTechTask.Controllers.AuthController.Login (SpanTechTask)' 
+2025-03-06 02:18:55.9121 [Info] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(SpanTechTask.Models.LoginModel) on controller SpanTechTask.Controllers.AuthController (SpanTechTask). 
+2025-03-06 02:18:55.9121 [Debug] Execution plan of authorization filters (in the following order): None 
+2025-03-06 02:18:55.9121 [Debug] Execution plan of resource filters (in the following order): None 
+2025-03-06 02:18:55.9121 [Debug] Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000) 
+2025-03-06 02:18:55.9121 [Debug] Execution plan of exception filters (in the following order): None 
+2025-03-06 02:18:55.9121 [Debug] Execution plan of result filters (in the following order): None 
+2025-03-06 02:18:55.9199 [Debug] Executing controller factory for controller SpanTechTask.Controllers.AuthController (SpanTechTask) 
+2025-03-06 02:18:55.9199 [Debug] Executed controller factory for controller SpanTechTask.Controllers.AuthController (SpanTechTask) 
+2025-03-06 02:18:55.9199 [Debug] Attempting to bind parameter 'model' of type 'SpanTechTask.Models.LoginModel' ... 
+2025-03-06 02:18:55.9346 [Debug] Attempting to bind parameter 'model' of type 'SpanTechTask.Models.LoginModel' using the name '' in request data ... 
+2025-03-06 02:18:55.9346 [Debug] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'. 
+2025-03-06 02:18:55.9505 [Debug] Connection id "0HNAS4S03TSFV", Request id "0HNAS4S03TSFV:00000001": started reading request body. 
+2025-03-06 02:18:55.9505 [Debug] Connection id "0HNAS4S03TSFV", Request id "0HNAS4S03TSFV:00000001": done reading request body. 
+2025-03-06 02:18:55.9505 [Debug] JSON input formatter succeeded, deserializing to type 'SpanTechTask.Models.LoginModel' 
+2025-03-06 02:18:55.9505 [Debug] Done attempting to bind parameter 'model' of type 'SpanTechTask.Models.LoginModel'. 
+2025-03-06 02:18:55.9505 [Debug] Done attempting to bind parameter 'model' of type 'SpanTechTask.Models.LoginModel'. 
+2025-03-06 02:18:55.9505 [Debug] Attempting to validate the bound parameter 'model' of type 'SpanTechTask.Models.LoginModel' ... 
+2025-03-06 02:18:55.9667 [Debug] Done attempting to validate the bound parameter 'model' of type 'SpanTechTask.Models.LoginModel'. 
+2025-03-06 02:18:56.0798 [Info] Executing action method SpanTechTask.Controllers.AuthController.Login (SpanTechTask) - Validation state: Valid 
+2025-03-06 02:18:56.7558 [Info] Executed action method SpanTechTask.Controllers.AuthController.Login (SpanTechTask), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 667.2045ms. 
+2025-03-06 02:18:56.7949 [Debug] List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2025-03-06 02:18:56.7949 [Debug] No information found on request to perform content negotiation. 
+2025-03-06 02:18:56.7949 [Debug] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2025-03-06 02:18:56.7949 [Debug] Attempting to select the first formatter in the output formatters list which can write the result. 
+2025-03-06 02:18:56.7949 [Debug] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2025-03-06 02:18:56.7949 [Info] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2025-03-06 02:18:56.8135 [Info] Executed action SpanTechTask.Controllers.AuthController.Login (SpanTechTask) in 892.4596ms 
+2025-03-06 02:18:56.8135 [Info] Executed endpoint 'SpanTechTask.Controllers.AuthController.Login (SpanTechTask)' 
+2025-03-06 02:18:56.8135 [Debug] Connection id "0HNAS4S03TSFV" completed keep alive response. 
+2025-03-06 02:18:56.8135 [Info] Request finished HTTP/1.1 POST http://localhost:5095/login - 200 - application/json;+charset=utf-8 1143.1457ms 
+2025-03-06 02:19:00.2702 [Debug] Connection id "0HNAS4S03TSFV" received FIN. 
+2025-03-06 02:19:00.2702 [Debug] Connection id "0HNAS4S03TSFV" disconnecting. 
+2025-03-06 02:19:00.2702 [Debug] Connection id "0HNAS4S03TSFV" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2025-03-06 02:19:00.2855 [Debug] Connection id "0HNAS4S03TSFV" stopped. 
+2025-03-06 02:19:13.5813 [Debug] Connection id "0HNAS4S03TSG0" accepted. 
+2025-03-06 02:19:13.5813 [Debug] Connection id "0HNAS4S03TSG0" started. 
+2025-03-06 02:19:13.5813 [Info] Request starting HTTP/1.1 GET http://localhost:5095/api/Admin - - - 
+2025-03-06 02:19:13.5813 [Debug] 1 candidate(s) found for the request path '/api/Admin' 
+2025-03-06 02:19:13.5813 [Debug] Endpoint 'SpanTechTask.Controllers.AdminController.GetAll (SpanTechTask)' with route pattern 'api/Admin' is valid for the request path '/api/Admin' 
+2025-03-06 02:19:13.5813 [Debug] Request matched endpoint 'SpanTechTask.Controllers.AdminController.GetAll (SpanTechTask)' 
+2025-03-06 02:19:13.5813 [Debug] Static files was skipped as the request already matched an endpoint. 
+2025-03-06 02:19:13.6160 [Info] Failed to validate the token. Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+ ---> System.MissingMethodException: Method not found: 'Byte[] Microsoft.IdentityModel.Tokens.Base64UrlEncoder.UnsafeDecode(System.ReadOnlySpan`1<Char>)'.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+   --- End of inner exception stack trace ---
+2025-03-06 02:19:13.6216 [Info] Bearer was not authenticated. Failure message: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'. 
+2025-03-06 02:19:13.6216 [Debug] Policy authentication schemes  did not succeed 
+2025-03-06 02:19:13.6385 [Info] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin) 
+2025-03-06 02:19:13.6385 [Info] AuthenticationScheme: Bearer was challenged. 
+2025-03-06 02:19:13.6385 [Debug] Connection id "0HNAS4S03TSG0" completed keep alive response. 
+2025-03-06 02:19:13.6385 [Info] Request finished HTTP/1.1 GET http://localhost:5095/api/Admin - 401 0 - 65.1196ms 
+2025-03-06 02:19:15.2989 [Debug] Connection id "0HNAS4S03TSG0" received FIN. 
+2025-03-06 02:19:15.2989 [Debug] Connection id "0HNAS4S03TSG0" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2025-03-06 02:19:15.2989 [Debug] Connection id "0HNAS4S03TSG0" disconnecting. 
+2025-03-06 02:19:15.2989 [Debug] Connection id "0HNAS4S03TSG0" stopped. 
+2025-03-06 02:23:43.1591 [Error] Application stopped due to an exception System.IO.InvalidDataException: Failed to load configuration from file 'C:\Users\SATHISHKUMAR\source\repos\SpanTechTask\SpanTechTask\appsettings.json'.
+ ---> System.FormatException: Could not parse the JSON file.
+ ---> System.Text.Json.JsonReaderException: '{' is invalid after a value. Expected either ',', '}', or ']'. LineNumber: 16 | BytePositionInLine: 2.
+   at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader& json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)
+   at System.Text.Json.Utf8JsonReader.ConsumeNextTokenUntilAfterAllCommentsAreSkipped(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ConsumeNextToken(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ConsumeNextTokenOrRollback(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ReadSingleSegment()
+   at System.Text.Json.Utf8JsonReader.Read()
+   at System.Text.Json.JsonDocument.Parse(ReadOnlySpan`1 utf8JsonSpan, JsonReaderOptions readerOptions, MetadataDb& database, StackRowStack& stack)
+   at System.Text.Json.JsonDocument.Parse(ReadOnlyMemory`1 utf8Json, JsonReaderOptions readerOptions, Byte[] extraRentedArrayPoolBytes, PooledByteBufferWriter extraPooledByteBufferWriter)
+   at System.Text.Json.JsonDocument.Parse(ReadOnlyMemory`1 json, JsonDocumentOptions options)
+   at System.Text.Json.JsonDocument.Parse(String json, JsonDocumentOptions options)
+   at Microsoft.Extensions.Configuration.Json.JsonConfigurationFileParser.ParseStream(Stream input)
+   at Microsoft.Extensions.Configuration.Json.JsonConfigurationProvider.Load(Stream stream)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.Configuration.Json.JsonConfigurationProvider.Load(Stream stream)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)
+   at Microsoft.Extensions.Configuration.ConfigurationManager.AddSource(IConfigurationSource source)
+   at Microsoft.Extensions.Configuration.ConfigurationManager.Microsoft.Extensions.Configuration.IConfigurationBuilder.Add(IConfigurationSource source)
+   at Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(IConfigurationBuilder builder, String path, Boolean optional, Boolean reloadOnChange)
+   at Microsoft.Extensions.Hosting.HostingHostBuilderExtensions.ApplyDefaultAppConfiguration(HostBuilderContext hostingContext, IConfigurationBuilder appConfigBuilder, String[] args)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder..ctor(HostApplicationBuilderSettings settings)
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder..ctor(WebApplicationOptions options, Action`1 configureDefaults)
+   at Microsoft.AspNetCore.Builder.WebApplication.CreateBuilder(String[] args)
+   at Program.<Main>$(String[] args) in C:\Users\SATHISHKUMAR\source\repos\SpanTechTask\SpanTechTask\Program.cs:line 14
+2025-03-06 02:24:55.7409 [Error] Application stopped due to an exception System.IO.InvalidDataException: Failed to load configuration from file 'C:\Users\SATHISHKUMAR\source\repos\SpanTechTask\SpanTechTask\appsettings.json'.
+ ---> System.FormatException: Could not parse the JSON file.
+ ---> System.Text.Json.JsonReaderException: '{' is invalid after a value. Expected either ',', '}', or ']'. LineNumber: 16 | BytePositionInLine: 2.
+   at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader& json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)
+   at System.Text.Json.Utf8JsonReader.ConsumeNextTokenUntilAfterAllCommentsAreSkipped(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ConsumeNextToken(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ConsumeNextTokenOrRollback(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ReadSingleSegment()
+   at System.Text.Json.Utf8JsonReader.Read()
+   at System.Text.Json.JsonDocument.Parse(ReadOnlySpan`1 utf8JsonSpan, JsonReaderOptions readerOptions, MetadataDb& database, StackRowStack& stack)
+   at System.Text.Json.JsonDocument.Parse(ReadOnlyMemory`1 utf8Json, JsonReaderOptions readerOptions, Byte[] extraRentedArrayPoolBytes, PooledByteBufferWriter extraPooledByteBufferWriter)
+   at System.Text.Json.JsonDocument.Parse(ReadOnlyMemory`1 json, JsonDocumentOptions options)
+   at System.Text.Json.JsonDocument.Parse(String json, JsonDocumentOptions options)
+   at Microsoft.Extensions.Configuration.Json.JsonConfigurationFileParser.ParseStream(Stream input)
+   at Microsoft.Extensions.Configuration.Json.JsonConfigurationProvider.Load(Stream stream)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.Configuration.Json.JsonConfigurationProvider.Load(Stream stream)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)
+   at Microsoft.Extensions.Configuration.ConfigurationManager.AddSource(IConfigurationSource source)
+   at Microsoft.Extensions.Configuration.ConfigurationManager.Microsoft.Extensions.Configuration.IConfigurationBuilder.Add(IConfigurationSource source)
+   at Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(IConfigurationBuilder builder, String path, Boolean optional, Boolean reloadOnChange)
+   at Microsoft.Extensions.Hosting.HostingHostBuilderExtensions.ApplyDefaultAppConfiguration(HostBuilderContext hostingContext, IConfigurationBuilder appConfigBuilder, String[] args)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder..ctor(HostApplicationBuilderSettings settings)
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder..ctor(WebApplicationOptions options, Action`1 configureDefaults)
+   at Microsoft.AspNetCore.Builder.WebApplication.CreateBuilder(String[] args)
+   at Program.<Main>$(String[] args) in C:\Users\SATHISHKUMAR\source\repos\SpanTechTask\SpanTechTask\Program.cs:line 14
+2025-03-06 02:25:45.0645 [Error] Application stopped due to an exception System.IO.InvalidDataException: Failed to load configuration from file 'C:\Users\SATHISHKUMAR\source\repos\SpanTechTask\SpanTechTask\appsettings.json'.
+ ---> System.FormatException: Could not parse the JSON file.
+ ---> System.Text.Json.JsonReaderException: '{' is invalid after a value. Expected either ',', '}', or ']'. LineNumber: 16 | BytePositionInLine: 2.
+   at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader& json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)
+   at System.Text.Json.Utf8JsonReader.ConsumeNextTokenUntilAfterAllCommentsAreSkipped(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ConsumeNextToken(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ConsumeNextTokenOrRollback(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ReadSingleSegment()
+   at System.Text.Json.Utf8JsonReader.Read()
+   at System.Text.Json.JsonDocument.Parse(ReadOnlySpan`1 utf8JsonSpan, JsonReaderOptions readerOptions, MetadataDb& database, StackRowStack& stack)
+   at System.Text.Json.JsonDocument.Parse(ReadOnlyMemory`1 utf8Json, JsonReaderOptions readerOptions, Byte[] extraRentedArrayPoolBytes, PooledByteBufferWriter extraPooledByteBufferWriter)
+   at System.Text.Json.JsonDocument.Parse(ReadOnlyMemory`1 json, JsonDocumentOptions options)
+   at System.Text.Json.JsonDocument.Parse(String json, JsonDocumentOptions options)
+   at Microsoft.Extensions.Configuration.Json.JsonConfigurationFileParser.ParseStream(Stream input)
+   at Microsoft.Extensions.Configuration.Json.JsonConfigurationProvider.Load(Stream stream)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.Configuration.Json.JsonConfigurationProvider.Load(Stream stream)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)
+   at Microsoft.Extensions.Configuration.ConfigurationManager.AddSource(IConfigurationSource source)
+   at Microsoft.Extensions.Configuration.ConfigurationManager.Microsoft.Extensions.Configuration.IConfigurationBuilder.Add(IConfigurationSource source)
+   at Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(IConfigurationBuilder builder, String path, Boolean optional, Boolean reloadOnChange)
+   at Microsoft.Extensions.Hosting.HostingHostBuilderExtensions.ApplyDefaultAppConfiguration(HostBuilderContext hostingContext, IConfigurationBuilder appConfigBuilder, String[] args)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder..ctor(HostApplicationBuilderSettings settings)
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder..ctor(WebApplicationOptions options, Action`1 configureDefaults)
+   at Microsoft.AspNetCore.Builder.WebApplication.CreateBuilder(String[] args)
+   at Program.<Main>$(String[] args) in C:\Users\SATHISHKUMAR\source\repos\SpanTechTask\SpanTechTask\Program.cs:line 14
+2025-03-06 02:28:52.0807 [Error] Application stopped due to an exception System.IO.InvalidDataException: Failed to load configuration from file 'C:\Users\SATHISHKUMAR\source\repos\SpanTechTask\SpanTechTask\appsettings.json'.
+ ---> System.FormatException: Could not parse the JSON file.
+ ---> System.Text.Json.JsonReaderException: '{' is invalid after a value. Expected either ',', '}', or ']'. LineNumber: 16 | BytePositionInLine: 2.
+   at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader& json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)
+   at System.Text.Json.Utf8JsonReader.ConsumeNextTokenUntilAfterAllCommentsAreSkipped(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ConsumeNextToken(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ConsumeNextTokenOrRollback(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ReadSingleSegment()
+   at System.Text.Json.Utf8JsonReader.Read()
+   at System.Text.Json.JsonDocument.Parse(ReadOnlySpan`1 utf8JsonSpan, JsonReaderOptions readerOptions, MetadataDb& database, StackRowStack& stack)
+   at System.Text.Json.JsonDocument.Parse(ReadOnlyMemory`1 utf8Json, JsonReaderOptions readerOptions, Byte[] extraRentedArrayPoolBytes, PooledByteBufferWriter extraPooledByteBufferWriter)
+   at System.Text.Json.JsonDocument.Parse(ReadOnlyMemory`1 json, JsonDocumentOptions options)
+   at System.Text.Json.JsonDocument.Parse(String json, JsonDocumentOptions options)
+   at Microsoft.Extensions.Configuration.Json.JsonConfigurationFileParser.ParseStream(Stream input)
+   at Microsoft.Extensions.Configuration.Json.JsonConfigurationProvider.Load(Stream stream)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.Configuration.Json.JsonConfigurationProvider.Load(Stream stream)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)
+   at Microsoft.Extensions.Configuration.ConfigurationManager.AddSource(IConfigurationSource source)
+   at Microsoft.Extensions.Configuration.ConfigurationManager.Microsoft.Extensions.Configuration.IConfigurationBuilder.Add(IConfigurationSource source)
+   at Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(IConfigurationBuilder builder, String path, Boolean optional, Boolean reloadOnChange)
+   at Microsoft.Extensions.Hosting.HostingHostBuilderExtensions.ApplyDefaultAppConfiguration(HostBuilderContext hostingContext, IConfigurationBuilder appConfigBuilder, String[] args)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder..ctor(HostApplicationBuilderSettings settings)
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder..ctor(WebApplicationOptions options, Action`1 configureDefaults)
+   at Microsoft.AspNetCore.Builder.WebApplication.CreateBuilder(String[] args)
+   at Program.<Main>$(String[] args) in C:\Users\SATHISHKUMAR\source\repos\SpanTechTask\SpanTechTask\Program.cs:line 14
+2025-03-06 02:30:41.2435 [Error] Application stopped due to an exception System.IO.InvalidDataException: Failed to load configuration from file 'C:\Users\SATHISHKUMAR\source\repos\SpanTechTask\SpanTechTask\appsettings.json'.
+ ---> System.FormatException: Could not parse the JSON file.
+ ---> System.Text.Json.JsonReaderException: '{' is an invalid start of a property name. Expected a '"'. LineNumber: 16 | BytePositionInLine: 2.
+   at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader& json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)
+   at System.Text.Json.Utf8JsonReader.ConsumeNextTokenUntilAfterAllCommentsAreSkipped(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ConsumeNextToken(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ConsumeNextTokenOrRollback(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ReadSingleSegment()
+   at System.Text.Json.Utf8JsonReader.Read()
+   at System.Text.Json.JsonDocument.Parse(ReadOnlySpan`1 utf8JsonSpan, JsonReaderOptions readerOptions, MetadataDb& database, StackRowStack& stack)
+   at System.Text.Json.JsonDocument.Parse(ReadOnlyMemory`1 utf8Json, JsonReaderOptions readerOptions, Byte[] extraRentedArrayPoolBytes, PooledByteBufferWriter extraPooledByteBufferWriter)
+   at System.Text.Json.JsonDocument.Parse(ReadOnlyMemory`1 json, JsonDocumentOptions options)
+   at System.Text.Json.JsonDocument.Parse(String json, JsonDocumentOptions options)
+   at Microsoft.Extensions.Configuration.Json.JsonConfigurationFileParser.ParseStream(Stream input)
+   at Microsoft.Extensions.Configuration.Json.JsonConfigurationProvider.Load(Stream stream)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.Configuration.Json.JsonConfigurationProvider.Load(Stream stream)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)
+   at Microsoft.Extensions.Configuration.ConfigurationManager.AddSource(IConfigurationSource source)
+   at Microsoft.Extensions.Configuration.ConfigurationManager.Microsoft.Extensions.Configuration.IConfigurationBuilder.Add(IConfigurationSource source)
+   at Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(IConfigurationBuilder builder, String path, Boolean optional, Boolean reloadOnChange)
+   at Microsoft.Extensions.Hosting.HostingHostBuilderExtensions.ApplyDefaultAppConfiguration(HostBuilderContext hostingContext, IConfigurationBuilder appConfigBuilder, String[] args)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder..ctor(HostApplicationBuilderSettings settings)
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder..ctor(WebApplicationOptions options, Action`1 configureDefaults)
+   at Microsoft.AspNetCore.Builder.WebApplication.CreateBuilder(String[] args)
+   at Program.<Main>$(String[] args) in C:\Users\SATHISHKUMAR\source\repos\SpanTechTask\SpanTechTask\Program.cs:line 14
+2025-03-06 02:33:38.0520 [Debug] Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2025-03-06 02:33:38.3937 [Debug] Hosting starting 
+2025-03-06 02:33:38.5902 [Info] User profile is available. Using 'C:\Users\SATHISHKUMAR\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-06 02:33:38.6853 [Debug] Reading data from file 'C:\Users\SATHISHKUMAR\AppData\Local\ASP.NET\DataProtection-Keys\key-cd37da84-b349-448d-a9d3-d07d98e87a7a.xml'. 
+2025-03-06 02:33:38.7197 [Debug] Found key {cd37da84-b349-448d-a9d3-d07d98e87a7a}. 
+2025-03-06 02:33:38.7661 [Debug] Considering key {cd37da84-b349-448d-a9d3-d07d98e87a7a} with expiration date 2025-06-02 20:39:57Z as default key. 
+2025-03-06 02:33:38.7661 [Debug] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-03-06 02:33:38.7785 [Debug] Decrypting secret element using Windows DPAPI. 
+2025-03-06 02:33:38.7785 [Debug] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-03-06 02:33:38.7993 [Debug] Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2025-03-06 02:33:38.7993 [Debug] Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2025-03-06 02:33:38.7993 [Debug] Using key {cd37da84-b349-448d-a9d3-d07d98e87a7a} as the default key. 
+2025-03-06 02:33:38.7993 [Debug] Key ring with default key {cd37da84-b349-448d-a9d3-d07d98e87a7a} was loaded during application startup. 
+2025-03-06 02:33:38.8285 [Debug] Middleware loaded 
+2025-03-06 02:33:38.8403 [Debug] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16509 B). 
+2025-03-06 02:33:38.8403 [Debug] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B). 
+2025-03-06 02:33:39.4671 [Debug] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true 
+2025-03-06 02:33:39.7504 [Info] Now listening on: http://localhost:5095 
+2025-03-06 02:33:39.7504 [Debug] Loaded hosting startup assembly SpanTechTask 
+2025-03-06 02:33:39.7504 [Debug] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery 
+2025-03-06 02:33:39.7504 [Debug] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2025-03-06 02:33:39.7504 [Debug] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2025-03-06 02:33:39.7933 [Debug] Connection id "0HNAS54Q5B5U6" accepted. 
+2025-03-06 02:33:39.7933 [Debug] Connection id "0HNAS54Q5B5U6" received FIN. 
+2025-03-06 02:33:39.7933 [Debug] Connection id "0HNAS54Q5B5U6" started. 
+2025-03-06 02:33:39.8265 [Debug] Connection id "0HNAS54Q5B5U6" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2025-03-06 02:33:39.8265 [Debug] Connection id "0HNAS54Q5B5U6" disconnecting. 
+2025-03-06 02:33:39.8265 [Debug] Connection id "0HNAS54Q5B5U6" stopped. 
+2025-03-06 02:33:39.9317 [Info] Application started. Press Ctrl+C to shut down. 
+2025-03-06 02:33:39.9317 [Info] Hosting environment: Development 
+2025-03-06 02:33:39.9317 [Info] Content root path: C:\Users\SATHISHKUMAR\source\repos\SpanTechTask\SpanTechTask 
+2025-03-06 02:33:39.9341 [Debug] Hosting started 
+2025-03-06 02:33:41.0787 [Debug] Connection id "0HNAS54Q5B5U7" accepted. 
+2025-03-06 02:33:41.2209 [Debug] Connection id "0HNAS54Q5B5U8" accepted. 
+2025-03-06 02:33:41.2415 [Debug] Connection id "0HNAS54Q5B5U7" started. 
+2025-03-06 02:33:41.2464 [Debug] Connection id "0HNAS54Q5B5U8" started. 
+2025-03-06 02:33:41.5057 [Info] Request starting HTTP/1.1 GET http://localhost:5095/swagger/index.html - - - 
+2025-03-06 02:33:41.6242 [Debug] Connection id "0HNAS54Q5B5U8" received FIN. 
+2025-03-06 02:33:41.6242 [Debug] Connection id "0HNAS54Q5B5U8" disconnecting. 
+2025-03-06 02:33:41.6242 [Debug] Connection id "0HNAS54Q5B5U8" stopped. 
+2025-03-06 02:33:41.6452 [Debug] Connection id "0HNAS54Q5B5U8" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2025-03-06 02:33:42.2462 [Debug] Wildcard detected, all requests with hosts will be allowed. 
+2025-03-06 02:33:42.3464 [Debug] No candidates found for the request path '/swagger/index.html' 
+2025-03-06 02:33:42.3464 [Debug] Request did not match any endpoints 
+2025-03-06 02:33:42.6206 [Debug] Response markup is scheduled to include Browser Link script injection. 
+2025-03-06 02:33:42.6315 [Debug] Response markup is scheduled to include browser refresh script injection. 
+2025-03-06 02:33:42.7473 [Debug] Response markup was updated to include Browser Link script injection. 
+2025-03-06 02:33:42.7473 [Debug] Response markup was updated to include browser refresh script injection. 
+2025-03-06 02:33:42.7473 [Debug] Connection id "0HNAS54Q5B5U7" completed keep alive response. 
+2025-03-06 02:33:42.7473 [Info] Request finished HTTP/1.1 GET http://localhost:5095/swagger/index.html - 200 - text/html;charset=utf-8 1273.5023ms 
+2025-03-06 02:33:42.8449 [Debug] Connection id "0HNAS54Q5B5U9" accepted. 
+2025-03-06 02:33:42.8449 [Info] Request starting HTTP/1.1 GET http://localhost:5095/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-06 02:33:42.8608 [Debug] Connection id "0HNAS54Q5B5U9" started. 
+2025-03-06 02:33:42.8608 [Info] Request starting HTTP/1.1 GET http://localhost:5095/_vs/browserLink - - - 
+2025-03-06 02:33:42.8608 [Debug] Script injected: /_framework/aspnetcore-browser-refresh.js 
+2025-03-06 02:33:42.8608 [Debug] Connection id "0HNAS54Q5B5U7" completed keep alive response. 
+2025-03-06 02:33:42.8608 [Info] Request finished HTTP/1.1 GET http://localhost:5095/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript;+charset=utf-8 23.0989ms 
+2025-03-06 02:33:43.2002 [Debug] Connection id "0HNAS54Q5B5U9" completed keep alive response. 
+2025-03-06 02:33:43.2002 [Info] Request finished HTTP/1.1 GET http://localhost:5095/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 337.0725ms 
+2025-03-06 02:33:43.4753 [Info] Request starting HTTP/1.1 GET http://localhost:5095/swagger/v1/swagger.json - - - 
+2025-03-06 02:33:43.4922 [Debug] No candidates found for the request path '/swagger/v1/swagger.json' 
+2025-03-06 02:33:43.4964 [Debug] Request did not match any endpoints 
+2025-03-06 02:33:43.5752 [Debug] Connection id "0HNAS54Q5B5U9" completed keep alive response. 
+2025-03-06 02:33:43.5752 [Info] Request finished HTTP/1.1 GET http://localhost:5095/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 100.7063ms 
+2025-03-06 02:33:46.6288 [Debug] Connection id "0HNAS54Q5B5U9" received FIN. 
+2025-03-06 02:33:46.6288 [Debug] Connection id "0HNAS54Q5B5U7" received FIN. 
+2025-03-06 02:33:46.6288 [Debug] Connection id "0HNAS54Q5B5U9" disconnecting. 
+2025-03-06 02:33:46.6288 [Debug] Connection id "0HNAS54Q5B5U7" disconnecting. 
+2025-03-06 02:33:46.6288 [Debug] Connection id "0HNAS54Q5B5U7" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2025-03-06 02:33:46.6288 [Debug] Connection id "0HNAS54Q5B5U9" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2025-03-06 02:33:46.6288 [Debug] Connection id "0HNAS54Q5B5U9" stopped. 
+2025-03-06 02:33:46.6423 [Debug] Connection id "0HNAS54Q5B5U7" stopped. 
+2025-03-06 02:34:08.0065 [Debug] Connection id "0HNAS54Q5B5UA" accepted. 
+2025-03-06 02:34:08.0065 [Debug] Connection id "0HNAS54Q5B5UA" started. 
+2025-03-06 02:34:08.0065 [Info] Request starting HTTP/1.1 POST http://localhost:5095/login - application/json 57 
+2025-03-06 02:34:08.0228 [Debug] 1 candidate(s) found for the request path '/login' 
+2025-03-06 02:34:08.0340 [Debug] Endpoint 'SpanTechTask.Controllers.AuthController.Login (SpanTechTask)' with route pattern 'login' is valid for the request path '/login' 
+2025-03-06 02:34:08.0340 [Debug] Request matched endpoint 'SpanTechTask.Controllers.AuthController.Login (SpanTechTask)' 
+2025-03-06 02:34:08.0340 [Debug] Static files was skipped as the request already matched an endpoint. 
+2025-03-06 02:34:08.0456 [Warn] Failed to determine the https port for redirect. 
+2025-03-06 02:34:08.3157 [Debug] AuthenticationScheme: Bearer was not authenticated. 
+2025-03-06 02:34:08.3157 [Info] Executing endpoint 'SpanTechTask.Controllers.AuthController.Login (SpanTechTask)' 
+2025-03-06 02:34:08.3889 [Info] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(SpanTechTask.Models.LoginModel) on controller SpanTechTask.Controllers.AuthController (SpanTechTask). 
+2025-03-06 02:34:08.3889 [Debug] Execution plan of authorization filters (in the following order): None 
+2025-03-06 02:34:08.3889 [Debug] Execution plan of resource filters (in the following order): None 
+2025-03-06 02:34:08.3889 [Debug] Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000) 
+2025-03-06 02:34:08.3889 [Debug] Execution plan of exception filters (in the following order): None 
+2025-03-06 02:34:08.3889 [Debug] Execution plan of result filters (in the following order): None 
+2025-03-06 02:34:08.3889 [Debug] Executing controller factory for controller SpanTechTask.Controllers.AuthController (SpanTechTask) 
+2025-03-06 02:34:08.3889 [Debug] Executed controller factory for controller SpanTechTask.Controllers.AuthController (SpanTechTask) 
+2025-03-06 02:34:08.4108 [Debug] Attempting to bind parameter 'model' of type 'SpanTechTask.Models.LoginModel' ... 
+2025-03-06 02:34:08.4108 [Debug] Attempting to bind parameter 'model' of type 'SpanTechTask.Models.LoginModel' using the name '' in request data ... 
+2025-03-06 02:34:08.4192 [Debug] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'. 
+2025-03-06 02:34:08.4431 [Debug] Connection id "0HNAS54Q5B5UA", Request id "0HNAS54Q5B5UA:00000001": started reading request body. 
+2025-03-06 02:34:08.4431 [Debug] Connection id "0HNAS54Q5B5UA", Request id "0HNAS54Q5B5UA:00000001": done reading request body. 
+2025-03-06 02:34:08.4531 [Debug] JSON input formatter succeeded, deserializing to type 'SpanTechTask.Models.LoginModel' 
+2025-03-06 02:34:08.4531 [Debug] Done attempting to bind parameter 'model' of type 'SpanTechTask.Models.LoginModel'. 
+2025-03-06 02:34:08.4531 [Debug] Done attempting to bind parameter 'model' of type 'SpanTechTask.Models.LoginModel'. 
+2025-03-06 02:34:08.4531 [Debug] Attempting to validate the bound parameter 'model' of type 'SpanTechTask.Models.LoginModel' ... 
+2025-03-06 02:34:08.4682 [Debug] Done attempting to validate the bound parameter 'model' of type 'SpanTechTask.Models.LoginModel'. 
+2025-03-06 02:34:08.6111 [Info] Executing action method SpanTechTask.Controllers.AuthController.Login (SpanTechTask) - Validation state: Valid 
+2025-03-06 02:34:09.7340 [Info] Executed action method SpanTechTask.Controllers.AuthController.Login (SpanTechTask), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1110.9206ms. 
+2025-03-06 02:34:09.7457 [Debug] List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2025-03-06 02:34:09.7630 [Debug] No information found on request to perform content negotiation. 
+2025-03-06 02:34:09.7630 [Debug] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2025-03-06 02:34:09.7630 [Debug] Attempting to select the first formatter in the output formatters list which can write the result. 
+2025-03-06 02:34:09.7630 [Debug] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2025-03-06 02:34:09.7630 [Info] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2025-03-06 02:34:09.7900 [Info] Executed action SpanTechTask.Controllers.AuthController.Login (SpanTechTask) in 1383.4033ms 
+2025-03-06 02:34:09.7900 [Info] Executed endpoint 'SpanTechTask.Controllers.AuthController.Login (SpanTechTask)' 
+2025-03-06 02:34:09.7963 [Debug] Connection id "0HNAS54Q5B5UA" completed keep alive response. 
+2025-03-06 02:34:09.7963 [Info] Request finished HTTP/1.1 POST http://localhost:5095/login - 200 - application/json;+charset=utf-8 1785.0929ms 
+2025-03-06 02:34:11.6394 [Debug] Connection id "0HNAS54Q5B5UA" received FIN. 
+2025-03-06 02:34:11.6394 [Debug] Connection id "0HNAS54Q5B5UA" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2025-03-06 02:34:11.6394 [Debug] Connection id "0HNAS54Q5B5UA" disconnecting. 
+2025-03-06 02:34:11.6394 [Debug] Connection id "0HNAS54Q5B5UA" stopped. 
+2025-03-06 02:34:42.2417 [Debug] Connection id "0HNAS54Q5B5UB" accepted. 
+2025-03-06 02:34:42.2417 [Debug] Connection id "0HNAS54Q5B5UB" started. 
+2025-03-06 02:34:42.2473 [Info] Request starting HTTP/1.1 GET http://localhost:5095/api/Admin - - - 
+2025-03-06 02:34:42.2667 [Debug] 1 candidate(s) found for the request path '/api/Admin' 
+2025-03-06 02:34:42.2667 [Debug] Endpoint 'SpanTechTask.Controllers.AdminController.GetAll (SpanTechTask)' with route pattern 'api/Admin' is valid for the request path '/api/Admin' 
+2025-03-06 02:34:42.2667 [Debug] Request matched endpoint 'SpanTechTask.Controllers.AdminController.GetAll (SpanTechTask)' 
+2025-03-06 02:34:42.2667 [Debug] Static files was skipped as the request already matched an endpoint. 
+2025-03-06 02:34:42.3453 [Info] Failed to validate the token. Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+ ---> System.MissingMethodException: Method not found: 'Byte[] Microsoft.IdentityModel.Tokens.Base64UrlEncoder.UnsafeDecode(System.ReadOnlySpan`1<Char>)'.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+   --- End of inner exception stack trace ---
+2025-03-06 02:34:42.4155 [Error] Authentication failed: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'. 
+2025-03-06 02:34:42.4291 [Info] Bearer was not authenticated. Failure message: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'. 
+2025-03-06 02:34:42.4339 [Debug] Policy authentication schemes  did not succeed 
+2025-03-06 02:34:42.4495 [Info] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin) 
+2025-03-06 02:34:42.4495 [Warn] JWT challenge triggered. 
+2025-03-06 02:34:42.4495 [Info] AuthenticationScheme: Bearer was challenged. 
+2025-03-06 02:34:42.4650 [Debug] Connection id "0HNAS54Q5B5UB" completed keep alive response. 
+2025-03-06 02:34:42.4650 [Info] Request finished HTTP/1.1 GET http://localhost:5095/api/Admin - 401 0 - 220.9342ms 
+2025-03-06 02:34:46.6840 [Debug] Connection id "0HNAS54Q5B5UB" received FIN. 
+2025-03-06 02:34:46.6840 [Debug] Connection id "0HNAS54Q5B5UB" disconnecting. 
+2025-03-06 02:34:46.6840 [Debug] Connection id "0HNAS54Q5B5UB" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2025-03-06 02:34:46.6994 [Debug] Connection id "0HNAS54Q5B5UB" stopped. 
+2025-03-06 02:43:19.3660 [Debug] Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2025-03-06 02:43:19.7185 [Debug] Hosting starting 
+2025-03-06 02:43:19.8838 [Info] User profile is available. Using 'C:\Users\SATHISHKUMAR\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-06 02:43:19.9755 [Debug] Reading data from file 'C:\Users\SATHISHKUMAR\AppData\Local\ASP.NET\DataProtection-Keys\key-cd37da84-b349-448d-a9d3-d07d98e87a7a.xml'. 
+2025-03-06 02:43:20.0054 [Debug] Found key {cd37da84-b349-448d-a9d3-d07d98e87a7a}. 
+2025-03-06 02:43:20.0495 [Debug] Considering key {cd37da84-b349-448d-a9d3-d07d98e87a7a} with expiration date 2025-06-02 20:39:57Z as default key. 
+2025-03-06 02:43:20.0495 [Debug] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-03-06 02:43:20.0589 [Debug] Decrypting secret element using Windows DPAPI. 
+2025-03-06 02:43:20.0589 [Debug] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-03-06 02:43:20.0779 [Debug] Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2025-03-06 02:43:20.0779 [Debug] Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2025-03-06 02:43:20.0779 [Debug] Using key {cd37da84-b349-448d-a9d3-d07d98e87a7a} as the default key. 
+2025-03-06 02:43:20.0779 [Debug] Key ring with default key {cd37da84-b349-448d-a9d3-d07d98e87a7a} was loaded during application startup. 
+2025-03-06 02:43:20.1054 [Debug] Middleware loaded 
+2025-03-06 02:43:20.1054 [Debug] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16509 B). 
+2025-03-06 02:43:20.1223 [Debug] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B). 
+2025-03-06 02:43:20.4687 [Debug] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true 
+2025-03-06 02:43:20.8811 [Info] Now listening on: http://localhost:5095 
+2025-03-06 02:43:20.8811 [Debug] Loaded hosting startup assembly SpanTechTask 
+2025-03-06 02:43:20.8811 [Debug] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery 
+2025-03-06 02:43:20.8811 [Debug] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2025-03-06 02:43:20.8811 [Debug] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2025-03-06 02:43:20.9517 [Debug] Connection id "0HNAS5A7BMPBM" accepted. 
+2025-03-06 02:43:20.9517 [Debug] Connection id "0HNAS5A7BMPBN" accepted. 
+2025-03-06 02:43:20.9517 [Debug] Connection id "0HNAS5A7BMPBM" started. 
+2025-03-06 02:43:20.9654 [Debug] Connection id "0HNAS5A7BMPBN" started. 
+2025-03-06 02:43:20.9654 [Debug] Connection id "0HNAS5A7BMPBM" received FIN. 
+2025-03-06 02:43:20.9654 [Debug] Connection id "0HNAS5A7BMPBN" received FIN. 
+2025-03-06 02:43:20.9959 [Debug] Connection id "0HNAS5A7BMPBM" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2025-03-06 02:43:20.9959 [Debug] Connection id "0HNAS5A7BMPBN" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2025-03-06 02:43:21.0000 [Debug] Connection id "0HNAS5A7BMPBN" disconnecting. 
+2025-03-06 02:43:21.0000 [Debug] Connection id "0HNAS5A7BMPBM" disconnecting. 
+2025-03-06 02:43:21.0000 [Debug] Connection id "0HNAS5A7BMPBM" stopped. 
+2025-03-06 02:43:21.0000 [Debug] Connection id "0HNAS5A7BMPBN" stopped. 
+2025-03-06 02:43:21.5942 [Info] Application started. Press Ctrl+C to shut down. 
+2025-03-06 02:43:21.6092 [Info] Hosting environment: Development 
+2025-03-06 02:43:21.6092 [Info] Content root path: C:\Users\SATHISHKUMAR\source\repos\SpanTechTask\SpanTechTask 
+2025-03-06 02:43:21.6092 [Debug] Hosting started 
+2025-03-06 02:43:22.0006 [Debug] Connection id "0HNAS5A7BMPBO" accepted. 
+2025-03-06 02:43:22.0006 [Debug] Connection id "0HNAS5A7BMPBO" started. 
+2025-03-06 02:43:22.0006 [Debug] Connection id "0HNAS5A7BMPBP" accepted. 
+2025-03-06 02:43:22.0006 [Debug] Connection id "0HNAS5A7BMPBP" started. 
+2025-03-06 02:43:22.3601 [Info] Request starting HTTP/1.1 GET http://localhost:5095/swagger/index.html - - - 
+2025-03-06 02:43:22.3601 [Debug] Connection id "0HNAS5A7BMPBP" received FIN. 
+2025-03-06 02:43:22.3711 [Debug] Connection id "0HNAS5A7BMPBP" disconnecting. 
+2025-03-06 02:43:22.3711 [Debug] Connection id "0HNAS5A7BMPBP" stopped. 
+2025-03-06 02:43:22.3711 [Debug] Connection id "0HNAS5A7BMPBP" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2025-03-06 02:43:23.4184 [Debug] Wildcard detected, all requests with hosts will be allowed. 
+2025-03-06 02:43:23.5210 [Debug] No candidates found for the request path '/swagger/index.html' 
+2025-03-06 02:43:23.5210 [Debug] Request did not match any endpoints 
+2025-03-06 02:43:23.7354 [Debug] Response markup is scheduled to include Browser Link script injection. 
+2025-03-06 02:43:23.7354 [Debug] Response markup is scheduled to include browser refresh script injection. 
+2025-03-06 02:43:24.4301 [Debug] Response markup was updated to include Browser Link script injection. 
+2025-03-06 02:43:24.4301 [Debug] Response markup was updated to include browser refresh script injection. 
+2025-03-06 02:43:24.4336 [Debug] Connection id "0HNAS5A7BMPBO" completed keep alive response. 
+2025-03-06 02:43:24.4336 [Info] Request finished HTTP/1.1 GET http://localhost:5095/swagger/index.html - 200 - text/html;charset=utf-8 2135.1046ms 
+2025-03-06 02:43:24.6359 [Debug] Connection id "0HNAS5A7BMPBQ" accepted. 
+2025-03-06 02:43:24.6825 [Info] Request starting HTTP/1.1 GET http://localhost:5095/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-06 02:43:24.6825 [Debug] Connection id "0HNAS5A7BMPBQ" started. 
+2025-03-06 02:43:24.6840 [Info] Request starting HTTP/1.1 GET http://localhost:5095/_vs/browserLink - - - 
+2025-03-06 02:43:24.6840 [Debug] Script injected: /_framework/aspnetcore-browser-refresh.js 
+2025-03-06 02:43:24.6840 [Debug] Connection id "0HNAS5A7BMPBO" completed keep alive response. 
+2025-03-06 02:43:24.6840 [Info] Request finished HTTP/1.1 GET http://localhost:5095/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript;+charset=utf-8 12.4862ms 
+2025-03-06 02:43:25.2466 [Debug] Connection id "0HNAS5A7BMPBQ" completed keep alive response. 
+2025-03-06 02:43:25.2466 [Info] Request finished HTTP/1.1 GET http://localhost:5095/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 562.9486ms 
+2025-03-06 02:43:25.5262 [Info] Request starting HTTP/1.1 GET http://localhost:5095/swagger/v1/swagger.json - - - 
+2025-03-06 02:43:25.5730 [Debug] No candidates found for the request path '/swagger/v1/swagger.json' 
+2025-03-06 02:43:25.5730 [Debug] Request did not match any endpoints 
+2025-03-06 02:43:25.6620 [Debug] Connection id "0HNAS5A7BMPBQ" completed keep alive response. 
+2025-03-06 02:43:25.6620 [Info] Request finished HTTP/1.1 GET http://localhost:5095/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 137.2109ms 
+2025-03-06 02:43:27.3364 [Debug] Connection id "0HNAS5A7BMPBO" received FIN. 
+2025-03-06 02:43:27.3364 [Debug] Connection id "0HNAS5A7BMPBQ" received FIN. 
+2025-03-06 02:43:27.3398 [Debug] Connection id "0HNAS5A7BMPBQ" disconnecting. 
+2025-03-06 02:43:27.3398 [Debug] Connection id "0HNAS5A7BMPBO" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2025-03-06 02:43:27.3398 [Debug] Connection id "0HNAS5A7BMPBQ" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2025-03-06 02:43:27.3398 [Debug] Connection id "0HNAS5A7BMPBO" disconnecting. 
+2025-03-06 02:43:27.3398 [Debug] Connection id "0HNAS5A7BMPBQ" stopped. 
+2025-03-06 02:43:27.3398 [Debug] Connection id "0HNAS5A7BMPBO" stopped. 
+2025-03-06 02:43:46.0824 [Debug] Connection id "0HNAS5A7BMPBR" accepted. 
+2025-03-06 02:43:46.0824 [Debug] Connection id "0HNAS5A7BMPBR" started. 
+2025-03-06 02:43:46.0824 [Info] Request starting HTTP/1.1 GET http://localhost:5095/api/Admin - - - 
+2025-03-06 02:43:46.1176 [Debug] 1 candidate(s) found for the request path '/api/Admin' 
+2025-03-06 02:43:46.1251 [Debug] Endpoint 'SpanTechTask.Controllers.AdminController.GetAll (SpanTechTask)' with route pattern 'api/Admin' is valid for the request path '/api/Admin' 
+2025-03-06 02:43:46.1251 [Debug] Request matched endpoint 'SpanTechTask.Controllers.AdminController.GetAll (SpanTechTask)' 
+2025-03-06 02:43:46.1251 [Debug] Static files was skipped as the request already matched an endpoint. 
+2025-03-06 02:43:46.1251 [Warn] Failed to determine the https port for redirect. 
+2025-03-06 02:43:46.3585 [Info] Failed to validate the token. Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+ ---> System.MissingMethodException: Method not found: 'Byte[] Microsoft.IdentityModel.Tokens.Base64UrlEncoder.UnsafeDecode(System.ReadOnlySpan`1<Char>)'.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+   --- End of inner exception stack trace ---
+2025-03-06 02:43:46.4329 [Error] Authentication failed: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'. 
+2025-03-06 02:43:46.4531 [Info] Bearer was not authenticated. Failure message: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'. 
+2025-03-06 02:43:46.4657 [Debug] Policy authentication schemes  did not succeed 
+2025-03-06 02:43:46.4896 [Info] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin) 
+2025-03-06 02:43:46.5109 [Warn] JWT challenge triggered. 
+2025-03-06 02:43:46.5190 [Info] AuthenticationScheme: Bearer was challenged. 
+2025-03-06 02:43:46.5190 [Debug] Connection id "0HNAS5A7BMPBR" completed keep alive response. 
+2025-03-06 02:43:46.5190 [Info] Request finished HTTP/1.1 GET http://localhost:5095/api/Admin - 401 0 - 436.8755ms 
+2025-03-06 02:43:47.3588 [Debug] Connection id "0HNAS5A7BMPBR" received FIN. 
+2025-03-06 02:43:47.3588 [Debug] Connection id "0HNAS5A7BMPBR" disconnecting. 
+2025-03-06 02:43:47.3588 [Debug] Connection id "0HNAS5A7BMPBR" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2025-03-06 02:43:47.3588 [Debug] Connection id "0HNAS5A7BMPBR" stopped. 
+2025-03-06 02:44:19.5959 [Debug] Connection id "0HNAS5A7BMPBS" accepted. 
+2025-03-06 02:44:19.6249 [Debug] Connection id "0HNAS5A7BMPBS" started. 
+2025-03-06 02:44:19.6480 [Info] Request starting HTTP/1.1 POST http://localhost:5095/login - application/json 57 
+2025-03-06 02:44:19.6480 [Debug] 1 candidate(s) found for the request path '/login' 
+2025-03-06 02:44:19.6480 [Debug] Endpoint 'SpanTechTask.Controllers.AuthController.Login (SpanTechTask)' with route pattern 'login' is valid for the request path '/login' 
+2025-03-06 02:44:19.6480 [Debug] Request matched endpoint 'SpanTechTask.Controllers.AuthController.Login (SpanTechTask)' 
+2025-03-06 02:44:19.6480 [Debug] Static files was skipped as the request already matched an endpoint. 
+2025-03-06 02:44:19.6568 [Info] Failed to validate the token. Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+ ---> System.MissingMethodException: Method not found: 'Byte[] Microsoft.IdentityModel.Tokens.Base64UrlEncoder.UnsafeDecode(System.ReadOnlySpan`1<Char>)'.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+   --- End of inner exception stack trace ---
+2025-03-06 02:44:19.6568 [Error] Authentication failed: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'. 
+2025-03-06 02:44:19.6568 [Info] Bearer was not authenticated. Failure message: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'. 
+2025-03-06 02:44:19.6568 [Info] Executing endpoint 'SpanTechTask.Controllers.AuthController.Login (SpanTechTask)' 
+2025-03-06 02:44:19.7262 [Info] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(SpanTechTask.Models.LoginModel) on controller SpanTechTask.Controllers.AuthController (SpanTechTask). 
+2025-03-06 02:44:19.7262 [Debug] Execution plan of authorization filters (in the following order): None 
+2025-03-06 02:44:19.7262 [Debug] Execution plan of resource filters (in the following order): None 
+2025-03-06 02:44:19.7262 [Debug] Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000) 
+2025-03-06 02:44:19.7262 [Debug] Execution plan of exception filters (in the following order): None 
+2025-03-06 02:44:19.7262 [Debug] Execution plan of result filters (in the following order): None 
+2025-03-06 02:44:19.7348 [Debug] Executing controller factory for controller SpanTechTask.Controllers.AuthController (SpanTechTask) 
+2025-03-06 02:44:19.7348 [Debug] Executed controller factory for controller SpanTechTask.Controllers.AuthController (SpanTechTask) 
+2025-03-06 02:44:19.7479 [Debug] Attempting to bind parameter 'model' of type 'SpanTechTask.Models.LoginModel' ... 
+2025-03-06 02:44:19.7479 [Debug] Attempting to bind parameter 'model' of type 'SpanTechTask.Models.LoginModel' using the name '' in request data ... 
+2025-03-06 02:44:19.7479 [Debug] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'. 
+2025-03-06 02:44:19.7802 [Debug] Connection id "0HNAS5A7BMPBS", Request id "0HNAS5A7BMPBS:00000001": started reading request body. 
+2025-03-06 02:44:19.7802 [Debug] Connection id "0HNAS5A7BMPBS", Request id "0HNAS5A7BMPBS:00000001": done reading request body. 
+2025-03-06 02:44:19.7928 [Debug] JSON input formatter succeeded, deserializing to type 'SpanTechTask.Models.LoginModel' 
+2025-03-06 02:44:19.7928 [Debug] Done attempting to bind parameter 'model' of type 'SpanTechTask.Models.LoginModel'. 
+2025-03-06 02:44:19.7928 [Debug] Done attempting to bind parameter 'model' of type 'SpanTechTask.Models.LoginModel'. 
+2025-03-06 02:44:19.7928 [Debug] Attempting to validate the bound parameter 'model' of type 'SpanTechTask.Models.LoginModel' ... 
+2025-03-06 02:44:19.8179 [Debug] Done attempting to validate the bound parameter 'model' of type 'SpanTechTask.Models.LoginModel'. 
+2025-03-06 02:44:19.9707 [Info] Executing action method SpanTechTask.Controllers.AuthController.Login (SpanTechTask) - Validation state: Valid 
+2025-03-06 02:44:21.0881 [Info] Executed action method SpanTechTask.Controllers.AuthController.Login (SpanTechTask), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1102.2898ms. 
+2025-03-06 02:44:21.1214 [Debug] List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2025-03-06 02:44:21.1386 [Debug] No information found on request to perform content negotiation. 
+2025-03-06 02:44:21.1386 [Debug] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2025-03-06 02:44:21.1386 [Debug] Attempting to select the first formatter in the output formatters list which can write the result. 
+2025-03-06 02:44:21.1386 [Debug] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2025-03-06 02:44:21.1386 [Info] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2025-03-06 02:44:21.1628 [Info] Executed action SpanTechTask.Controllers.AuthController.Login (SpanTechTask) in 1422.2768ms 
+2025-03-06 02:44:21.1628 [Info] Executed endpoint 'SpanTechTask.Controllers.AuthController.Login (SpanTechTask)' 
+2025-03-06 02:44:21.1698 [Debug] Connection id "0HNAS5A7BMPBS" completed keep alive response. 
+2025-03-06 02:44:21.1698 [Info] Request finished HTTP/1.1 POST http://localhost:5095/login - 200 - application/json;+charset=utf-8 1522.1111ms 
+2025-03-06 02:44:22.4194 [Debug] Connection id "0HNAS5A7BMPBS" received FIN. 
+2025-03-06 02:44:22.4194 [Debug] Connection id "0HNAS5A7BMPBS" disconnecting. 
+2025-03-06 02:44:22.4194 [Debug] Connection id "0HNAS5A7BMPBS" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2025-03-06 02:44:22.4194 [Debug] Connection id "0HNAS5A7BMPBS" stopped. 
+2025-03-06 02:44:42.9732 [Debug] Connection id "0HNAS5A7BMPBT" accepted. 
+2025-03-06 02:44:42.9732 [Debug] Connection id "0HNAS5A7BMPBT" started. 
+2025-03-06 02:44:42.9732 [Info] Request starting HTTP/1.1 GET http://localhost:5095/api/Admin - - - 
+2025-03-06 02:44:42.9732 [Debug] 1 candidate(s) found for the request path '/api/Admin' 
+2025-03-06 02:44:42.9732 [Debug] Endpoint 'SpanTechTask.Controllers.AdminController.GetAll (SpanTechTask)' with route pattern 'api/Admin' is valid for the request path '/api/Admin' 
+2025-03-06 02:44:42.9732 [Debug] Request matched endpoint 'SpanTechTask.Controllers.AdminController.GetAll (SpanTechTask)' 
+2025-03-06 02:44:42.9732 [Debug] Static files was skipped as the request already matched an endpoint. 
+2025-03-06 02:44:42.9732 [Info] Failed to validate the token. Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+ ---> System.MissingMethodException: Method not found: 'Byte[] Microsoft.IdentityModel.Tokens.Base64UrlEncoder.UnsafeDecode(System.ReadOnlySpan`1<Char>)'.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+   --- End of inner exception stack trace ---
+2025-03-06 02:44:42.9732 [Error] Authentication failed: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'. 
+2025-03-06 02:44:42.9732 [Info] Bearer was not authenticated. Failure message: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'. 
+2025-03-06 02:44:42.9825 [Debug] Policy authentication schemes  did not succeed 
+2025-03-06 02:44:42.9825 [Info] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin) 
+2025-03-06 02:44:42.9825 [Warn] JWT challenge triggered. 
+2025-03-06 02:44:42.9825 [Info] AuthenticationScheme: Bearer was challenged. 
+2025-03-06 02:44:42.9825 [Debug] Connection id "0HNAS5A7BMPBT" completed keep alive response. 
+2025-03-06 02:44:42.9825 [Info] Request finished HTTP/1.1 GET http://localhost:5095/api/Admin - 401 0 - 10.8188ms 
+2025-03-06 02:44:52.4646 [Debug] Connection id "0HNAS5A7BMPBT" received FIN. 
+2025-03-06 02:44:52.4659 [Debug] Connection id "0HNAS5A7BMPBT" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2025-03-06 02:44:52.4659 [Debug] Connection id "0HNAS5A7BMPBT" disconnecting. 
+2025-03-06 02:44:52.4659 [Debug] Connection id "0HNAS5A7BMPBT" stopped. 
+2025-03-06 02:52:46.2616 [Debug] Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2025-03-06 02:52:46.5467 [Debug] Hosting starting 
+2025-03-06 02:52:46.6606 [Info] User profile is available. Using 'C:\Users\SATHISHKUMAR\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-06 02:52:46.7268 [Debug] Reading data from file 'C:\Users\SATHISHKUMAR\AppData\Local\ASP.NET\DataProtection-Keys\key-cd37da84-b349-448d-a9d3-d07d98e87a7a.xml'. 
+2025-03-06 02:52:46.7609 [Debug] Found key {cd37da84-b349-448d-a9d3-d07d98e87a7a}. 
+2025-03-06 02:52:46.8054 [Debug] Considering key {cd37da84-b349-448d-a9d3-d07d98e87a7a} with expiration date 2025-06-02 20:39:57Z as default key. 
+2025-03-06 02:52:46.8121 [Debug] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-03-06 02:52:46.8250 [Debug] Decrypting secret element using Windows DPAPI. 
+2025-03-06 02:52:46.8250 [Debug] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-03-06 02:52:46.8250 [Debug] Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2025-03-06 02:52:46.8250 [Debug] Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2025-03-06 02:52:46.8427 [Debug] Using key {cd37da84-b349-448d-a9d3-d07d98e87a7a} as the default key. 
+2025-03-06 02:52:46.8427 [Debug] Key ring with default key {cd37da84-b349-448d-a9d3-d07d98e87a7a} was loaded during application startup. 
+2025-03-06 02:52:46.8622 [Debug] Middleware loaded 
+2025-03-06 02:52:46.8737 [Debug] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16509 B). 
+2025-03-06 02:52:46.8737 [Debug] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B). 
+2025-03-06 02:52:47.3243 [Debug] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true 
+2025-03-06 02:52:47.5083 [Info] Now listening on: http://localhost:5095 
+2025-03-06 02:52:47.5083 [Debug] Loaded hosting startup assembly SpanTechTask 
+2025-03-06 02:52:47.5083 [Debug] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery 
+2025-03-06 02:52:47.5083 [Debug] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2025-03-06 02:52:47.5083 [Debug] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2025-03-06 02:52:47.5701 [Debug] Connection id "0HNAS5FG7D0IP" accepted. 
+2025-03-06 02:52:47.5701 [Debug] Connection id "0HNAS5FG7D0IQ" accepted. 
+2025-03-06 02:52:47.5701 [Debug] Connection id "0HNAS5FG7D0IP" started. 
+2025-03-06 02:52:47.5701 [Debug] Connection id "0HNAS5FG7D0IQ" started. 
+2025-03-06 02:52:47.5828 [Debug] Connection id "0HNAS5FG7D0IP" received FIN. 
+2025-03-06 02:52:47.5828 [Debug] Connection id "0HNAS5FG7D0IQ" received FIN. 
+2025-03-06 02:52:47.6158 [Debug] Connection id "0HNAS5FG7D0IQ" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2025-03-06 02:52:47.6158 [Debug] Connection id "0HNAS5FG7D0IP" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2025-03-06 02:52:47.6158 [Debug] Connection id "0HNAS5FG7D0IQ" disconnecting. 
+2025-03-06 02:52:47.6158 [Debug] Connection id "0HNAS5FG7D0IP" disconnecting. 
+2025-03-06 02:52:47.6240 [Debug] Connection id "0HNAS5FG7D0IQ" stopped. 
+2025-03-06 02:52:47.6240 [Debug] Connection id "0HNAS5FG7D0IP" stopped. 
+2025-03-06 02:52:47.6907 [Info] Application started. Press Ctrl+C to shut down. 
+2025-03-06 02:52:47.6907 [Info] Hosting environment: Development 
+2025-03-06 02:52:47.6907 [Info] Content root path: C:\Users\SATHISHKUMAR\source\repos\SpanTechTask\SpanTechTask 
+2025-03-06 02:52:47.6907 [Debug] Hosting started 
+2025-03-06 02:52:48.5944 [Debug] Connection id "0HNAS5FG7D0IR" accepted. 
+2025-03-06 02:52:48.5944 [Debug] Connection id "0HNAS5FG7D0IR" started. 
+2025-03-06 02:52:48.5944 [Debug] Connection id "0HNAS5FG7D0IS" accepted. 
+2025-03-06 02:52:48.5944 [Debug] Connection id "0HNAS5FG7D0IS" started. 
+2025-03-06 02:52:48.9675 [Info] Request starting HTTP/1.1 GET http://localhost:5095/swagger/index.html - - - 
+2025-03-06 02:52:49.9499 [Debug] Wildcard detected, all requests with hosts will be allowed. 
+2025-03-06 02:52:50.1319 [Debug] No candidates found for the request path '/swagger/index.html' 
+2025-03-06 02:52:50.1319 [Debug] Request did not match any endpoints 
+2025-03-06 02:52:50.4459 [Debug] Response markup is scheduled to include Browser Link script injection. 
+2025-03-06 02:52:50.4504 [Debug] Response markup is scheduled to include browser refresh script injection. 
+2025-03-06 02:52:50.5072 [Debug] Response markup was updated to include Browser Link script injection. 
+2025-03-06 02:52:50.5072 [Debug] Response markup was updated to include browser refresh script injection. 
+2025-03-06 02:52:50.5072 [Debug] Connection id "0HNAS5FG7D0IS" completed keep alive response. 
+2025-03-06 02:52:50.5168 [Info] Request finished HTTP/1.1 GET http://localhost:5095/swagger/index.html - 200 - text/html;charset=utf-8 1575.3339ms 
+2025-03-06 02:52:50.5749 [Info] Request starting HTTP/1.1 GET http://localhost:5095/_vs/browserLink - - - 
+2025-03-06 02:52:50.5749 [Info] Request starting HTTP/1.1 GET http://localhost:5095/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-06 02:52:50.5749 [Debug] Script injected: /_framework/aspnetcore-browser-refresh.js 
+2025-03-06 02:52:50.5749 [Debug] Connection id "0HNAS5FG7D0IS" completed keep alive response. 
+2025-03-06 02:52:50.5749 [Info] Request finished HTTP/1.1 GET http://localhost:5095/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript;+charset=utf-8 14.0746ms 
+2025-03-06 02:52:50.8592 [Debug] Connection id "0HNAS5FG7D0IR" completed keep alive response. 
+2025-03-06 02:52:50.8592 [Info] Request finished HTTP/1.1 GET http://localhost:5095/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 284.9950ms 
+2025-03-06 02:52:51.1819 [Info] Request starting HTTP/1.1 GET http://localhost:5095/swagger/v1/swagger.json - - - 
+2025-03-06 02:52:51.1979 [Debug] No candidates found for the request path '/swagger/v1/swagger.json' 
+2025-03-06 02:52:51.1979 [Debug] Request did not match any endpoints 
+2025-03-06 02:52:51.2611 [Debug] Connection id "0HNAS5FG7D0IR" completed keep alive response. 
+2025-03-06 02:52:51.2611 [Info] Request finished HTTP/1.1 GET http://localhost:5095/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 79.8450ms 
+2025-03-06 02:52:53.5919 [Debug] Connection id "0HNAS5FG7D0IR" received FIN. 
+2025-03-06 02:52:53.5919 [Debug] Connection id "0HNAS5FG7D0IS" received FIN. 
+2025-03-06 02:52:53.5919 [Debug] Connection id "0HNAS5FG7D0IR" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2025-03-06 02:52:53.5919 [Debug] Connection id "0HNAS5FG7D0IS" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2025-03-06 02:52:53.5919 [Debug] Connection id "0HNAS5FG7D0IS" disconnecting. 
+2025-03-06 02:52:53.5919 [Debug] Connection id "0HNAS5FG7D0IR" disconnecting. 
+2025-03-06 02:52:53.6167 [Debug] Connection id "0HNAS5FG7D0IS" stopped. 
+2025-03-06 02:52:53.6167 [Debug] Connection id "0HNAS5FG7D0IR" stopped. 
+2025-03-06 02:53:38.0303 [Debug] Connection id "0HNAS5FG7D0IT" accepted. 
+2025-03-06 02:53:38.0303 [Debug] Connection id "0HNAS5FG7D0IT" started. 
+2025-03-06 02:53:38.0560 [Info] Request starting HTTP/1.1 POST http://localhost:5095/login - application/json 57 
+2025-03-06 02:53:38.0700 [Debug] 1 candidate(s) found for the request path '/login' 
+2025-03-06 02:53:38.0760 [Debug] Endpoint 'SpanTechTask.Controllers.AuthController.Login (SpanTechTask)' with route pattern 'login' is valid for the request path '/login' 
+2025-03-06 02:53:38.0760 [Debug] Request matched endpoint 'SpanTechTask.Controllers.AuthController.Login (SpanTechTask)' 
+2025-03-06 02:53:38.0760 [Debug] Static files was skipped as the request already matched an endpoint. 
+2025-03-06 02:53:38.0760 [Warn] Failed to determine the https port for redirect. 
+2025-03-06 02:53:38.2975 [Debug] AuthenticationScheme: Bearer was not authenticated. 
+2025-03-06 02:53:38.2975 [Info] Executing endpoint 'SpanTechTask.Controllers.AuthController.Login (SpanTechTask)' 
+2025-03-06 02:53:38.3634 [Info] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(SpanTechTask.Models.LoginModel) on controller SpanTechTask.Controllers.AuthController (SpanTechTask). 
+2025-03-06 02:53:38.3634 [Debug] Execution plan of authorization filters (in the following order): None 
+2025-03-06 02:53:38.3634 [Debug] Execution plan of resource filters (in the following order): None 
+2025-03-06 02:53:38.3634 [Debug] Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000) 
+2025-03-06 02:53:38.3634 [Debug] Execution plan of exception filters (in the following order): None 
+2025-03-06 02:53:38.3634 [Debug] Execution plan of result filters (in the following order): None 
+2025-03-06 02:53:38.3722 [Debug] Executing controller factory for controller SpanTechTask.Controllers.AuthController (SpanTechTask) 
+2025-03-06 02:53:38.3722 [Debug] Executed controller factory for controller SpanTechTask.Controllers.AuthController (SpanTechTask) 
+2025-03-06 02:53:38.3881 [Debug] Attempting to bind parameter 'model' of type 'SpanTechTask.Models.LoginModel' ... 
+2025-03-06 02:53:38.3881 [Debug] Attempting to bind parameter 'model' of type 'SpanTechTask.Models.LoginModel' using the name '' in request data ... 
+2025-03-06 02:53:38.3881 [Debug] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'. 
+2025-03-06 02:53:38.4170 [Debug] Connection id "0HNAS5FG7D0IT", Request id "0HNAS5FG7D0IT:00000001": started reading request body. 
+2025-03-06 02:53:38.4170 [Debug] Connection id "0HNAS5FG7D0IT", Request id "0HNAS5FG7D0IT:00000001": done reading request body. 
+2025-03-06 02:53:38.4285 [Debug] JSON input formatter succeeded, deserializing to type 'SpanTechTask.Models.LoginModel' 
+2025-03-06 02:53:38.4285 [Debug] Done attempting to bind parameter 'model' of type 'SpanTechTask.Models.LoginModel'. 
+2025-03-06 02:53:38.4285 [Debug] Done attempting to bind parameter 'model' of type 'SpanTechTask.Models.LoginModel'. 
+2025-03-06 02:53:38.4285 [Debug] Attempting to validate the bound parameter 'model' of type 'SpanTechTask.Models.LoginModel' ... 
+2025-03-06 02:53:38.4523 [Debug] Done attempting to validate the bound parameter 'model' of type 'SpanTechTask.Models.LoginModel'. 
+2025-03-06 02:53:38.6316 [Info] Executing action method SpanTechTask.Controllers.AuthController.Login (SpanTechTask) - Validation state: Valid 
+2025-03-06 02:53:39.7346 [Info] Executed action method SpanTechTask.Controllers.AuthController.Login (SpanTechTask), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1090.9212ms. 
+2025-03-06 02:53:39.7464 [Debug] List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2025-03-06 02:53:39.7628 [Debug] No information found on request to perform content negotiation. 
+2025-03-06 02:53:39.7628 [Debug] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2025-03-06 02:53:39.7628 [Debug] Attempting to select the first formatter in the output formatters list which can write the result. 
+2025-03-06 02:53:39.7628 [Debug] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2025-03-06 02:53:39.7628 [Info] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2025-03-06 02:53:39.7891 [Info] Executed action SpanTechTask.Controllers.AuthController.Login (SpanTechTask) in 1407.8706ms 
+2025-03-06 02:53:39.7891 [Info] Executed endpoint 'SpanTechTask.Controllers.AuthController.Login (SpanTechTask)' 
+2025-03-06 02:53:39.8051 [Debug] Connection id "0HNAS5FG7D0IT" completed keep alive response. 
+2025-03-06 02:53:39.8051 [Info] Request finished HTTP/1.1 POST http://localhost:5095/login - 200 - application/json;+charset=utf-8 1749.6254ms 
+2025-03-06 02:53:43.6387 [Debug] Connection id "0HNAS5FG7D0IT" received FIN. 
+2025-03-06 02:53:43.6387 [Debug] Connection id "0HNAS5FG7D0IT" disconnecting. 
+2025-03-06 02:53:43.6387 [Debug] Connection id "0HNAS5FG7D0IT" stopped. 
+2025-03-06 02:53:43.6387 [Debug] Connection id "0HNAS5FG7D0IT" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2025-03-06 02:54:44.9956 [Debug] Connection id "0HNAS5FG7D0IU" accepted. 
+2025-03-06 02:54:45.0025 [Debug] Connection id "0HNAS5FG7D0IU" started. 
+2025-03-06 02:54:45.0025 [Info] Request starting HTTP/1.1 GET http://localhost:5095/api/Admin - - - 
+2025-03-06 02:54:45.0025 [Debug] 1 candidate(s) found for the request path '/api/Admin' 
+2025-03-06 02:54:45.0025 [Debug] Endpoint 'SpanTechTask.Controllers.AdminController.GetAll (SpanTechTask)' with route pattern 'api/Admin' is valid for the request path '/api/Admin' 
+2025-03-06 02:54:45.0025 [Debug] Request matched endpoint 'SpanTechTask.Controllers.AdminController.GetAll (SpanTechTask)' 
+2025-03-06 02:54:45.0025 [Debug] Static files was skipped as the request already matched an endpoint. 
+2025-03-06 02:54:45.0955 [Info] Failed to validate the token. Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+ ---> System.MissingMethodException: Method not found: 'Byte[] Microsoft.IdentityModel.Tokens.Base64UrlEncoder.UnsafeDecode(System.ReadOnlySpan`1<Char>)'.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+   --- End of inner exception stack trace ---
+2025-03-06 02:54:45.1774 [Error] Authentication failed: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'. 
+2025-03-06 02:54:45.2036 [Info] Bearer was not authenticated. Failure message: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'. 
+2025-03-06 02:54:45.2208 [Debug] Policy authentication schemes  did not succeed 
+2025-03-06 02:54:45.2208 [Info] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin) 
+2025-03-06 02:54:45.2460 [Warn] JWT challenge triggered. 
+2025-03-06 02:54:45.2460 [Info] AuthenticationScheme: Bearer was challenged. 
+2025-03-06 02:54:45.2460 [Debug] Connection id "0HNAS5FG7D0IU" completed keep alive response. 
+2025-03-06 02:54:45.2460 [Info] Request finished HTTP/1.1 GET http://localhost:5095/api/Admin - 401 0 - 247.1257ms 
+2025-03-06 02:54:53.7111 [Debug] Connection id "0HNAS5FG7D0IU" received FIN. 
+2025-03-06 02:54:53.7111 [Debug] Connection id "0HNAS5FG7D0IU" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2025-03-06 02:54:53.7111 [Debug] Connection id "0HNAS5FG7D0IU" disconnecting. 
+2025-03-06 02:54:53.7111 [Debug] Connection id "0HNAS5FG7D0IU" stopped. 

@@ -1,21 +1,27 @@
-﻿using System.Data.SqlClient;
+﻿using Microsoft.Data.SqlClient;
 using System.Data;
 using SpanTechTask.Models;
+using SpanTechTask.Services;
 
 namespace SpanTechTask.Repository
 {
     public class EmployeeRepository
     {
         private readonly string _connectionString;
+        private readonly Base64EncryptionService _base64EncryptionService;
 
-        public EmployeeRepository(IConfiguration configuration)
+        public EmployeeRepository(IConfiguration configuration, Base64EncryptionService base64EncryptionService)
         {
-            _connectionString = configuration.GetConnectionString("DefaultConnection");
+            _connectionString = configuration.GetConnectionString("spanTech") ?? throw new Exception("Error on Connection string!");
+            _base64EncryptionService = base64EncryptionService;
+
         }
 
-        public async Task<List<EmployeeModel>> GetAllEmployeesAsync()
+       
+
+        public async Task<List<EmployeeViewModel>> GetAllEmployeesAsync()
         {
-            var employees = new List<EmployeeModel>();
+            var employees = new List<EmployeeViewModel>();
             using (var conn = new SqlConnection(_connectionString))
             {
                await conn.OpenAsync(); 
@@ -26,16 +32,15 @@ namespace SpanTechTask.Repository
                     {
                         while (await reader.ReadAsync())
                         {
-                            employees.Add(new EmployeeModel
+                            var employee = new EmployeeViewModel
                             {
-                                Id = reader.GetInt32(0),
-                                Name = reader.GetString(1),
-                                Email = reader.GetString(2),
-                                Role = reader.GetString(3),
-                                Department = reader.GetString(4),
-                                CreatedAt = reader.GetDateTime(5),
-                                UpdatedAt = reader.GetDateTime(6)
-                            });
+                                EmpId = reader.IsDBNull(reader.GetOrdinal("Id")) ? 0 : reader.GetInt32(reader.GetOrdinal("Id")),
+                                Name = reader.IsDBNull(reader.GetOrdinal("Name")) ? string.Empty : reader.GetString(reader.GetOrdinal("Name")),
+                                Email = reader.IsDBNull(reader.GetOrdinal("Email")) ? string.Empty : reader.GetString(reader.GetOrdinal("Email")),
+                                IsAdmin = reader.IsDBNull(reader.GetOrdinal("IsAdmin")) ? 0 : reader.GetInt32(reader.GetOrdinal("IsAdmin")),
+                                Department = reader.IsDBNull(reader.GetOrdinal("Department")) ? string.Empty : reader.GetString(reader.GetOrdinal("Department"))
+                            };
+                            employees.Add(employee);
                         }
                     }
                 }
@@ -43,29 +48,27 @@ namespace SpanTechTask.Repository
             return employees;
         }
 
-        public async Task<EmployeeModel> GetEmployeeByIdAsync(int id)
+        public async Task<EmployeeViewModel?> GetEmployeeByIdAsync(int empId)
         {
-            EmployeeModel employee = null;
+            EmployeeViewModel employee = null;
             using (var conn = new SqlConnection(_connectionString))
             {
                 await conn.OpenAsync();
-                var query = "SELECT * FROM HR.Employees WHERE Id = @Id";
+                var query = "SELECT * FROM span.Employees WHERE Id = @Id";
                 using (var cmd = new SqlCommand(query, conn))
                 {
-                    cmd.Parameters.AddWithValue("@Id", id);
+                    cmd.Parameters.AddWithValue("@Id", empId);
                     using (var reader = await cmd.ExecuteReaderAsync())
                     {
                         if (await reader.ReadAsync())
                         {
-                            employee = new EmployeeModel
+                            employee = new EmployeeViewModel
                             {
-                                Id = reader.GetInt32(0),
-                                Name = reader.GetString(1),
-                                Email = reader.GetString(2),
-                                Role = reader.GetString(3),
-                                Department = reader.GetString(4),
-                                CreatedAt = reader.GetDateTime(5),
-                                UpdatedAt = reader.GetDateTime(6)
+                                EmpId = reader.IsDBNull(reader.GetOrdinal("Id")) ? 0 : reader.GetInt32(reader.GetOrdinal("Id")),
+                                Name = reader.IsDBNull(reader.GetOrdinal("Name")) ? string.Empty : reader.GetString(reader.GetOrdinal("Name")),
+                                Email = reader.IsDBNull(reader.GetOrdinal("Email")) ? string.Empty : reader.GetString(reader.GetOrdinal("Email")),
+                                IsAdmin = reader.IsDBNull(reader.GetOrdinal("IsAdmin")) ? 0 : reader.GetInt32(reader.GetOrdinal("IsAdmin")),
+                                Department = reader.IsDBNull(reader.GetOrdinal("Department")) ? string.Empty : reader.GetString(reader.GetOrdinal("Department"))
                             };
                         }
                     }
@@ -74,56 +77,35 @@ namespace SpanTechTask.Repository
             return employee;
         }
 
-        public async Task<int> AddEmployeeAsync(EmployeeModel employee)
+        public async Task<List<EmployeeViewModel>> GetEmployeeByDepartmentAsync(string department)
         {
+            List<EmployeeViewModel> employees = new List<EmployeeViewModel>();
             using (var conn = new SqlConnection(_connectionString))
             {
                 await conn.OpenAsync();
-                var query = @"INSERT INTO HR.Employees (Name, Email, Role, Department)
-                              VALUES (@Name, @Email, @Role, @Department)";
+                var query = "SELECT * FROM span.Employees WHERE Department = @department";
                 using (var cmd = new SqlCommand(query, conn))
                 {
-                    cmd.Parameters.AddWithValue("@Name", employee.Name);
-                    cmd.Parameters.AddWithValue("@Email", employee.Email);
-                    cmd.Parameters.AddWithValue("@Role", employee.Role);
-                    cmd.Parameters.AddWithValue("@Department", employee.Department);
-                    return await cmd.ExecuteNonQueryAsync();
+                    cmd.Parameters.AddWithValue("@department", department);
+                    using (var reader = await cmd.ExecuteReaderAsync())
+                    {
+                        while (await reader.ReadAsync())
+                        {
+                            var employee = new EmployeeViewModel
+                            {
+                                EmpId = reader.IsDBNull(reader.GetOrdinal("Id")) ? 0 : reader.GetInt32(reader.GetOrdinal("Id")),
+                                Name = reader.IsDBNull(reader.GetOrdinal("Name")) ? string.Empty : reader.GetString(reader.GetOrdinal("Name")),
+                                Email = reader.IsDBNull(reader.GetOrdinal("Email")) ? string.Empty : reader.GetString(reader.GetOrdinal("Email")),
+                                IsAdmin = reader.IsDBNull(reader.GetOrdinal("IsAdmin")) ? 0 : reader.GetInt32(reader.GetOrdinal("IsAdmin")),
+                                Department = reader.IsDBNull(reader.GetOrdinal("Department")) ? string.Empty : reader.GetString(reader.GetOrdinal("Department"))
+                            };
+                            employees.Add(employee);
+                        }
+                    }
                 }
             }
+            return employees;
         }
 
-        public async Task<int> UpdateEmployeeAsync(EmployeeModel employee)
-        {
-            using (var conn = new SqlConnection(_connectionString))
-            {
-                await conn.OpenAsync();
-                var query = @"UPDATE HR.Employees SET Name = @Name, Email = @Email,
-                              Role = @Role, Department = @Department, UpdatedAt = GETDATE()
-                              WHERE Id = @Id";
-                using (var cmd = new SqlCommand(query, conn))
-                {
-                    cmd.Parameters.AddWithValue("@Id", employee.Id);
-                    cmd.Parameters.AddWithValue("@Name", employee.Name);
-                    cmd.Parameters.AddWithValue("@Email", employee.Email);
-                    cmd.Parameters.AddWithValue("@Role", employee.Role);
-                    cmd.Parameters.AddWithValue("@Department", employee.Department);
-                    return await cmd.ExecuteNonQueryAsync();
-                }
-            }
-        }
-
-        public async Task<int> DeleteEmployeeAsync(int id)
-        {
-            using (var conn = new SqlConnection(_connectionString))
-            {
-                await conn.OpenAsync();
-                var query = "DELETE FROM HR.Employees WHERE Id = @Id";
-                using (var cmd = new SqlCommand(query, conn))
-                {
-                    cmd.Parameters.AddWithValue("@Id", id);
-                    return await cmd.ExecuteNonQueryAsync();
-                }
-            }
-        }
     }
 }

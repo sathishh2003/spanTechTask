@@ -1,10 +1,3 @@
-C:\Users\SATHISHKUMAR\source\repos\SpanTechTask\SpanTechTask\obj\Debug\net8.0\SpanTechTask.csproj.AssemblyReference.cache
-C:\Users\SATHISHKUMAR\source\repos\SpanTechTask\SpanTechTask\obj\Debug\net8.0\SpanTechTask.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\SATHISHKUMAR\source\repos\SpanTechTask\SpanTechTask\obj\Debug\net8.0\SpanTechTask.AssemblyInfoInputs.cache
-C:\Users\SATHISHKUMAR\source\repos\SpanTechTask\SpanTechTask\obj\Debug\net8.0\SpanTechTask.AssemblyInfo.cs
-C:\Users\SATHISHKUMAR\source\repos\SpanTechTask\SpanTechTask\obj\Debug\net8.0\SpanTechTask.csproj.CoreCompileInputs.cache
-C:\Users\SATHISHKUMAR\source\repos\SpanTechTask\SpanTechTask\obj\Debug\net8.0\SpanTechTask.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\SATHISHKUMAR\source\repos\SpanTechTask\SpanTechTask\obj\Debug\net8.0\SpanTechTask.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\SATHISHKUMAR\source\repos\SpanTechTask\SpanTechTask\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\SATHISHKUMAR\source\repos\SpanTechTask\SpanTechTask\bin\Debug\net8.0\appsettings.json
 C:\Users\SATHISHKUMAR\source\repos\SpanTechTask\SpanTechTask\bin\Debug\net8.0\SpanTechTask.staticwebassets.endpoints.json
@@ -72,6 +65,14 @@ C:\Users\SATHISHKUMAR\source\repos\SpanTechTask\SpanTechTask\bin\Debug\net8.0\ru
 C:\Users\SATHISHKUMAR\source\repos\SpanTechTask\SpanTechTask\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
 C:\Users\SATHISHKUMAR\source\repos\SpanTechTask\SpanTechTask\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
 C:\Users\SATHISHKUMAR\source\repos\SpanTechTask\SpanTechTask\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\SATHISHKUMAR\source\repos\SpanTechTask\SpanTechTask\obj\Debug\net8.0\SpanTechTask.csproj.AssemblyReference.cache
+C:\Users\SATHISHKUMAR\source\repos\SpanTechTask\SpanTechTask\obj\Debug\net8.0\SpanTechTask.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SATHISHKUMAR\source\repos\SpanTechTask\SpanTechTask\obj\Debug\net8.0\SpanTechTask.AssemblyInfoInputs.cache
+C:\Users\SATHISHKUMAR\source\repos\SpanTechTask\SpanTechTask\obj\Debug\net8.0\SpanTechTask.AssemblyInfo.cs
+C:\Users\SATHISHKUMAR\source\repos\SpanTechTask\SpanTechTask\obj\Debug\net8.0\SpanTechTask.csproj.CoreCompileInputs.cache
+C:\Users\SATHISHKUMAR\source\repos\SpanTechTask\SpanTechTask\obj\Debug\net8.0\SpanTechTask.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\SATHISHKUMAR\source\repos\SpanTechTask\SpanTechTask\obj\Debug\net8.0\SpanTechTask.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\SATHISHKUMAR\source\repos\SpanTechTask\SpanTechTask\obj\Debug\net8.0\SpanTechTask.sourcelink.json
 C:\Users\SATHISHKUMAR\source\repos\SpanTechTask\SpanTechTask\obj\Debug\net8.0\scopedcss\bundle\SpanTechTask.styles.css
 C:\Users\SATHISHKUMAR\source\repos\SpanTechTask\SpanTechTask\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\SATHISHKUMAR\source\repos\SpanTechTask\SpanTechTask\obj\Debug\net8.0\staticwebassets.development.json
@@ -89,3 +90,6 @@ C:\Users\SATHISHKUMAR\source\repos\SpanTechTask\SpanTechTask\obj\Debug\net8.0\re
 C:\Users\SATHISHKUMAR\source\repos\SpanTechTask\SpanTechTask\obj\Debug\net8.0\SpanTechTask.pdb
 C:\Users\SATHISHKUMAR\source\repos\SpanTechTask\SpanTechTask\obj\Debug\net8.0\SpanTechTask.genruntimeconfig.cache
 C:\Users\SATHISHKUMAR\source\repos\SpanTechTask\SpanTechTask\obj\Debug\net8.0\ref\SpanTechTask.dll
+C:\Users\SATHISHKUMAR\source\repos\SpanTechTask\SpanTechTask\bin\Debug\net8.0\nlog.config
+C:\Users\SATHISHKUMAR\source\repos\SpanTechTask\SpanTechTask\bin\Debug\net8.0\NLog.Web.AspNetCore.dll
+C:\Users\SATHISHKUMAR\source\repos\SpanTechTask\SpanTechTask\bin\Debug\net8.0\NLog.WindowsEventLog.dll
