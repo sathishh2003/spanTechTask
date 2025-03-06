@@ -9,11 +9,13 @@ namespace SpanTechTask.Repository
     {
         private readonly string _connectionString;
         private readonly Base64EncryptionService _base64EncryptionService;
+        private readonly ILogger<EmployeeRepository> _logger;
 
-        public EmployeeRepository(IConfiguration configuration, Base64EncryptionService base64EncryptionService)
+        public EmployeeRepository(IConfiguration configuration, Base64EncryptionService base64EncryptionService,ILogger<EmployeeRepository> logger)
         {
             _connectionString = configuration.GetConnectionString("spanTech") ?? throw new Exception("Error on Connection string!");
             _base64EncryptionService = base64EncryptionService;
+            _logger = logger;
 
         }
 
@@ -44,6 +46,7 @@ namespace SpanTechTask.Repository
                         }
                     }
                 }
+                _logger.LogInformation("Fetchcing all the by Employee");
             }
             return employees;
         }
@@ -73,6 +76,7 @@ namespace SpanTechTask.Repository
                         }
                     }
                 }
+                _logger.LogInformation($"Fetchcing {empId} the by Employee");
             }
             return employee;
         }
@@ -103,6 +107,7 @@ namespace SpanTechTask.Repository
                         }
                     }
                 }
+                _logger.LogInformation($"Fetchcing {department} department details the by Employee");
             }
             return employees;
         }

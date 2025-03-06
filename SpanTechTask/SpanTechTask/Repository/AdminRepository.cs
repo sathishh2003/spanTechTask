@@ -9,12 +9,13 @@ namespace SpanTechTask.Repository
     {
         private readonly string _connectionString;
         private readonly Base64EncryptionService _base64EncryptionService;
+        private readonly ILogger<AdminRepository> _logger;
 
-        public AdminRepository(IConfiguration configuration, Base64EncryptionService base64EncryptionService)
+        public AdminRepository(IConfiguration configuration, Base64EncryptionService base64EncryptionService, ILogger<AdminRepository> logger)
         {
             _connectionString = configuration.GetConnectionString("spanTech") ?? throw new Exception("Error on Connection string!");
             _base64EncryptionService = base64EncryptionService;
-
+            _logger = logger;
         }
 
         public async Task<List<EmployeeModel>> GetAllEmployeesAsync()
@@ -44,6 +45,7 @@ namespace SpanTechTask.Repository
                         }
                     }
                 }
+                _logger.LogInformation("Fetchcing all the by Admin");
             }
             return employees;
         }
@@ -75,6 +77,7 @@ namespace SpanTechTask.Repository
                         }
                     }
                 }
+                _logger.LogInformation($"Fetchcing {empId} the by Admin");
             }
             return employee;
         }
@@ -107,6 +110,7 @@ namespace SpanTechTask.Repository
                         }
                     }
                 }
+                _logger.LogInformation($"Fetchcing {department} department details the by Admin");
             }
             return employees;
         }
@@ -117,6 +121,7 @@ namespace SpanTechTask.Repository
             using (var conn = new SqlConnection(_connectionString))
             {
                 await conn.OpenAsync();
+                _logger.LogInformation($"Adding {employee.Name}  by Admin");
                 var query = @"INSERT INTO span.Employees (Name, Email, Password, IsAdmin, Department, CreatedAt)
                               VALUES (@Name, @Email, @Password,@IsAdmin, @Department, @CreatedAt)";
                 using (var cmd = new SqlCommand(query, conn))
@@ -137,6 +142,7 @@ namespace SpanTechTask.Repository
             using (var conn = new SqlConnection(_connectionString))
             {
                 await conn.OpenAsync();
+                _logger.LogInformation($"Updating {employee.Name}  by Admin");
                 var query = @"UPDATE span.Employees SET Name = @Name, Email = @Email, Password = @Password,
                               IsAdmin = @IsAdmin, Department = @Department, UpdatedAt = GETDATE()
                               WHERE Id = @Id";
@@ -159,6 +165,7 @@ namespace SpanTechTask.Repository
             using (var conn = new SqlConnection(_connectionString))
             {
                 await conn.OpenAsync();
+                _logger.LogInformation($"Removing {empId}  by Admin");
                 var query = "DELETE FROM span.Employees WHERE Id = @Id";
                 using (var cmd = new SqlCommand(query, conn))
                 {

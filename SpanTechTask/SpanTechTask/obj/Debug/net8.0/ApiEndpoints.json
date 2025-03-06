@@ -137,16 +137,6 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "SpanTechTask.Controllers.EmployeeController",
-    "Method": "LogTest",
-    "RelativePath": "api/Employee/log",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
     "ContainingType": "SpanTechTask.Controllers.AuthController",
     "Method": "Login",
     "RelativePath": "login",

@@ -9,6 +9,7 @@ namespace SpanTechTask.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    //[Authorize(Roles = "User")]
     public class EmployeeController : ControllerBase
     {
 
@@ -43,15 +44,6 @@ namespace SpanTechTask.Controllers
             return Ok(employee);
         }
 
-        [HttpGet("log")]
-        public IActionResult LogTest()
-        {
-            logger.Debug("Debug log test");
-            logger.Info("Info log test");
-            logger.Warn("Warning log test");
-            logger.Error("Error log test");
-            return Ok("Logs have been triggered!");
-        }
     }
 
 }

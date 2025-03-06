@@ -19,7 +19,7 @@ namespace SpanTechTask.Controllers
         public async Task<IActionResult> Login([FromBody] LoginModel model)
         {
             var token = await _tokenService.AuthenticateAsync(model.Email, model.Password);
-            if (string.IsNullOrEmpty(token) || !token.Contains('.'))
+            if (string.IsNullOrEmpty(token))
                 return Unauthorized("Invalid credentials.");
             return Ok(new { token });
         }

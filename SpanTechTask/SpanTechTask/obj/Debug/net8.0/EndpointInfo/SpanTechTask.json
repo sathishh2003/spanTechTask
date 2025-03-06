@@ -1,8 +1,7 @@
 {
   "openapi": "3.0.1",
   "info": {
-    "title": "SpanTechTask",
-    "version": "1.0"
+    "title": "SpanTechTask"
   },
   "paths": {
     "/api/Admin": {
@@ -243,18 +242,6 @@
           }
         }
       }
-    },
-    "/api/Employee/log": {
-      "get": {
-        "tags": [
-          "Employee"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
     }
   },
   "components": {
@@ -315,10 +302,10 @@
     },
     "securitySchemes": {
       "Bearer": {
-        "type": "http",
+        "type": "apiKey",
         "description": "Enter yout JWT Access Token",
-        "scheme": "Bearer",
-        "bearerFormat": "JWT"
+        "name": "Authorization",
+        "in": "header"
       }
     }
   },

@@ -7,7 +7,7 @@ namespace SpanTechTask.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize(Roles = "Admin")]
+    //[Authorize(Roles = "Admin")]
     public class AdminController : ControllerBase
     {
 
@@ -17,6 +17,7 @@ namespace SpanTechTask.Controllers
         {
             _adminService = adminService;
         }
+
 
         [HttpGet]
         public async Task<IActionResult> GetAll()

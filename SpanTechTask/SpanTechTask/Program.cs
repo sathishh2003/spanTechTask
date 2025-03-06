@@ -13,42 +13,60 @@ try
 
     var builder = WebApplication.CreateBuilder(args);
 
-    builder.Logging.ClearProviders(); // Remove default logging providers
-    builder.Host.UseNLog(); // Use NLog
+    builder.Logging.ClearProviders();
+    builder.Host.UseNLog();
 
-    // Add services to the container.
+
     #region JWT
 
-    builder.Services.AddAuthentication("Bearer").AddJwtBearer("Bearer",options =>
+    builder.Services.AddAuthentication(options =>
+    {
+        options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+        options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+        options.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
+    }).AddJwtBearer(options =>
         {
             options.RequireHttpsMetadata = false;
             options.SaveToken = true;
             options.TokenValidationParameters = new TokenValidationParameters
             {
+                ValidIssuer = builder.Configuration["Jwt:Issuer"],
+                ValidAudience = builder.Configuration["Jwt:Audience"],
+                IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"])),
                 ValidateIssuer = true,
                 ValidateAudience = true,
                 ValidateLifetime = true,
-                ValidateIssuerSigningKey = true,
-                ValidIssuer = builder.Configuration["Jwt:Issuer"],
-                ValidAudience = builder.Configuration["Jwt:Audience"],
-                IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(builder.Configuration["Jwt:Key"])),
-                RequireSignedTokens = false
+                ValidateIssuerSigningKey = true
             };
-              options.Events = new JwtBearerEvents
+            options.Events = new JwtBearerEvents
             {
-                OnAuthenticationFailed = context =>
+                OnMessageReceived = context =>
                 {
-                    logger.Error($"Authentication failed: {context.Exception.Message}");
+             
+                    Console.WriteLine($"Received Token: {context.Token}");
                     return Task.CompletedTask;
                 },
                 OnTokenValidated = context =>
                 {
+                    Console.WriteLine("User authenticated!");
                     logger.Info($"Token validated for {context.Principal?.Identity?.Name}");
+                    return Task.CompletedTask;
+                },
+                OnAuthenticationFailed = context =>
+                {
+                    var rawToken = context.Request.Headers["Authorization"].ToString().Replace("Bearer ", "");
+                    Console.WriteLine(rawToken);
+
+                    logger.Error($"Authentication failed: {context.Exception.Message}");
+                    Console.WriteLine("User Failed!");
+
+
                     return Task.CompletedTask;
                 },
                 OnChallenge = context =>
                 {
                     logger.Warn("JWT challenge triggered.");
+                    Console.WriteLine("Token Triggred!");
                     return Task.CompletedTask;
                 }
             };
@@ -68,6 +86,9 @@ try
         }));
     #endregion
 
+
+    RegisterSwaggerUi(builder);
+
     #region INJECTION
     builder.Services.AddScoped<EmployeeRepository>();
     builder.Services.AddScoped<EmployeeService>();
@@ -83,28 +104,6 @@ try
     builder.Services.AddControllers();
 
     builder.Services.AddEndpointsApiExplorer();
-    builder.Services.AddSwaggerGen(options =>
-    {
-        var jwtSecurityScheme = new OpenApiSecurityScheme
-        {
-            BearerFormat = "JWT",
-            Name = "Authorization",
-            In = ParameterLocation.Header,
-            Type = SecuritySchemeType.Http,
-            Scheme = JwtBearerDefaults.AuthenticationScheme,
-            Description = "Enter yout JWT Access Token",
-            Reference = new OpenApiReference
-            {
-                Id = JwtBearerDefaults.AuthenticationScheme,
-                Type = ReferenceType.SecurityScheme
-            }
-        };
-        options.AddSecurityDefinition("Bearer", jwtSecurityScheme);
-        options.AddSecurityRequirement(new OpenApiSecurityRequirement
-        {
-        { jwtSecurityScheme,Array.Empty<string>() }
-        });
-    });
 
     var app = builder.Build();
 
@@ -135,4 +134,38 @@ finally
 {
     NLog.LogManager.Shutdown();
        
+}
+
+static void RegisterSwaggerUi(WebApplicationBuilder builder)
+{
+    builder.Services.AddSwaggerGen(options =>
+    {
+        options.ResolveConflictingActions(apiDescriptions => apiDescriptions.First());
+
+        options.SwaggerDoc("v1", new OpenApiInfo { Title = "SpanTechTask" });
+
+        options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+        {
+            BearerFormat = "JWT",
+            Name = "Authorization",
+            In = ParameterLocation.Header,
+            Type = SecuritySchemeType.ApiKey,
+            Scheme = "Bearer",
+            Description = "Enter yout JWT Access Token"
+        });
+
+        options.AddSecurityRequirement(new OpenApiSecurityRequirement {
+            {
+            new OpenApiSecurityScheme
+            {
+                Reference = new OpenApiReference
+                {
+                    Id = "Bearer",
+                    Type = ReferenceType.SecurityScheme
+                }
+            },
+            new List<string>()
+        }});
+    });
+
 }

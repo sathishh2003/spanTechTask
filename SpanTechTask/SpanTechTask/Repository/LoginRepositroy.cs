@@ -9,12 +9,13 @@ namespace SpanTechTask.Repository
 
         private readonly string _connectionString;
         private readonly Base64EncryptionService _base64EncryptionService;
+        private readonly ILogger<TokenService> _logger;
 
-        public LoginRepositroy(IConfiguration configuration, Base64EncryptionService base64EncryptionService)
+        public LoginRepositroy(IConfiguration configuration, Base64EncryptionService base64EncryptionService,ILogger<TokenService> logger)
         {
             _connectionString = configuration.GetConnectionString("spanTech") ?? throw new Exception("Error on Connection string!");
             _base64EncryptionService = base64EncryptionService;
-
+            _logger = logger;
         }
 
 
@@ -33,6 +34,7 @@ namespace SpanTechTask.Repository
                     {
                         if (await reader.ReadAsync())
                         {
+                            _logger.LogInformation("User Verified!");
                             return new EmployeeRoleModel
                             {
                                 Email = reader.GetString(reader.GetOrdinal("Email")),
@@ -40,6 +42,7 @@ namespace SpanTechTask.Repository
                             };
                         }
                     }
+                    _logger.LogInformation("Invalid User Credanticals!");
                     return null;
                 }
             }
