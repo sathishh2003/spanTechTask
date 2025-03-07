@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SpanTechTask")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a3c89a5f7b27f7001c69821aa5d25ec62f74595b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aa39b99f34339cac1216b253ba71f9b9fa8911fa")]
 [assembly: System.Reflection.AssemblyProductAttribute("SpanTechTask")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SpanTechTask")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -3,14 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\SATHISHKUMAR\\source\\repos\\SpanTechTask\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{131FC603-664F-45C4-B80C-3294F8253E7C}|SpanTechTask\\SpanTechTask.csproj|c:\\users\\sathishkumar\\source\\repos\\spantechtask\\spantechtask\\dbscripts\\span.schema.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{131FC603-664F-45C4-B80C-3294F8253E7C}|SpanTechTask\\SpanTechTask.csproj|solutionrelative:spantechtask\\dbscripts\\span.schema.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{131FC603-664F-45C4-B80C-3294F8253E7C}|SpanTechTask\\SpanTechTask.csproj|c:\\users\\sathishkumar\\source\\repos\\spantechtask\\spantechtask\\dbscripts\\span.employees.table.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{131FC603-664F-45C4-B80C-3294F8253E7C}|SpanTechTask\\SpanTechTask.csproj|solutionrelative:spantechtask\\dbscripts\\span.employees.table.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{131FC603-664F-45C4-B80C-3294F8253E7C}|SpanTechTask\\SpanTechTask.csproj|c:\\users\\sathishkumar\\source\\repos\\spantechtask\\spantechtask\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{131FC603-664F-45C4-B80C-3294F8253E7C}|SpanTechTask\\SpanTechTask.csproj|solutionrelative:spantechtask\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,36 +11,12 @@
       "RelativeMoniker": "D:0:0:{131FC603-664F-45C4-B80C-3294F8253E7C}|SpanTechTask\\SpanTechTask.csproj|solutionrelative:spantechtask\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{131FC603-664F-45C4-B80C-3294F8253E7C}|SpanTechTask\\SpanTechTask.csproj|c:\\users\\sathishkumar\\source\\repos\\spantechtask\\spantechtask\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{131FC603-664F-45C4-B80C-3294F8253E7C}|SpanTechTask\\SpanTechTask.csproj|solutionrelative:spantechtask\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{131FC603-664F-45C4-B80C-3294F8253E7C}|SpanTechTask\\SpanTechTask.csproj|c:\\users\\sathishkumar\\source\\repos\\spantechtask\\spantechtask\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{131FC603-664F-45C4-B80C-3294F8253E7C}|SpanTechTask\\SpanTechTask.csproj|solutionrelative:spantechtask\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{131FC603-664F-45C4-B80C-3294F8253E7C}|SpanTechTask\\SpanTechTask.csproj|c:\\users\\sathishkumar\\source\\repos\\spantechtask\\spantechtask\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{131FC603-664F-45C4-B80C-3294F8253E7C}|SpanTechTask\\SpanTechTask.csproj|solutionrelative:spantechtask\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{131FC603-664F-45C4-B80C-3294F8253E7C}|SpanTechTask\\SpanTechTask.csproj|c:\\users\\sathishkumar\\source\\repos\\spantechtask\\spantechtask\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{131FC603-664F-45C4-B80C-3294F8253E7C}|SpanTechTask\\SpanTechTask.csproj|solutionrelative:spantechtask\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{131FC603-664F-45C4-B80C-3294F8253E7C}|SpanTechTask\\SpanTechTask.csproj|c:\\users\\sathishkumar\\source\\repos\\spantechtask\\spantechtask\\repository\\adminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{131FC603-664F-45C4-B80C-3294F8253E7C}|SpanTechTask\\SpanTechTask.csproj|solutionrelative:spantechtask\\repository\\adminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{131FC603-664F-45C4-B80C-3294F8253E7C}|SpanTechTask\\SpanTechTask.csproj|c:\\users\\sathishkumar\\source\\repos\\spantechtask\\spantechtask\\repository\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{131FC603-664F-45C4-B80C-3294F8253E7C}|SpanTechTask\\SpanTechTask.csproj|solutionrelative:spantechtask\\repository\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{131FC603-664F-45C4-B80C-3294F8253E7C}|SpanTechTask\\SpanTechTask.csproj|c:\\users\\sathishkumar\\source\\repos\\spantechtask\\spantechtask\\repository\\loginrepositroy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{131FC603-664F-45C4-B80C-3294F8253E7C}|SpanTechTask\\SpanTechTask.csproj|solutionrelative:spantechtask\\repository\\loginrepositroy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{131FC603-664F-45C4-B80C-3294F8253E7C}|SpanTechTask\\SpanTechTask.csproj|c:\\users\\sathishkumar\\source\\repos\\spantechtask\\spantechtask\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{131FC603-664F-45C4-B80C-3294F8253E7C}|SpanTechTask\\SpanTechTask.csproj|solutionrelative:spantechtask\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{131FC603-664F-45C4-B80C-3294F8253E7C}|SpanTechTask\\SpanTechTask.csproj|c:\\users\\sathishkumar\\source\\repos\\spantechtask\\spantechtask\\services\\base64encryptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -57,6 +25,42 @@
     {
       "AbsoluteMoniker": "D:0:0:{131FC603-664F-45C4-B80C-3294F8253E7C}|SpanTechTask\\SpanTechTask.csproj|c:\\users\\sathishkumar\\source\\repos\\spantechtask\\spantechtask\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{131FC603-664F-45C4-B80C-3294F8253E7C}|SpanTechTask\\SpanTechTask.csproj|solutionrelative:spantechtask\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{131FC603-664F-45C4-B80C-3294F8253E7C}|SpanTechTask\\SpanTechTask.csproj|c:\\users\\sathishkumar\\source\\repos\\spantechtask\\spantechtask\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{131FC603-664F-45C4-B80C-3294F8253E7C}|SpanTechTask\\SpanTechTask.csproj|solutionrelative:spantechtask\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{131FC603-664F-45C4-B80C-3294F8253E7C}|SpanTechTask\\SpanTechTask.csproj|c:\\users\\sathishkumar\\source\\repos\\spantechtask\\spantechtask\\internal-nlog.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{131FC603-664F-45C4-B80C-3294F8253E7C}|SpanTechTask\\SpanTechTask.csproj|solutionrelative:spantechtask\\internal-nlog.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{131FC603-664F-45C4-B80C-3294F8253E7C}|SpanTechTask\\SpanTechTask.csproj|c:\\users\\sathishkumar\\source\\repos\\spantechtask\\spantechtask\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{131FC603-664F-45C4-B80C-3294F8253E7C}|SpanTechTask\\SpanTechTask.csproj|solutionrelative:spantechtask\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{131FC603-664F-45C4-B80C-3294F8253E7C}|SpanTechTask\\SpanTechTask.csproj|c:\\users\\sathishkumar\\source\\repos\\spantechtask\\spantechtask\\dbscripts\\span.schema.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{131FC603-664F-45C4-B80C-3294F8253E7C}|SpanTechTask\\SpanTechTask.csproj|solutionrelative:spantechtask\\dbscripts\\span.schema.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{131FC603-664F-45C4-B80C-3294F8253E7C}|SpanTechTask\\SpanTechTask.csproj|c:\\users\\sathishkumar\\source\\repos\\spantechtask\\spantechtask\\dbscripts\\span.employees.table.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{131FC603-664F-45C4-B80C-3294F8253E7C}|SpanTechTask\\SpanTechTask.csproj|solutionrelative:spantechtask\\dbscripts\\span.employees.table.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{131FC603-664F-45C4-B80C-3294F8253E7C}|SpanTechTask\\SpanTechTask.csproj|c:\\users\\sathishkumar\\source\\repos\\spantechtask\\spantechtask\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{131FC603-664F-45C4-B80C-3294F8253E7C}|SpanTechTask\\SpanTechTask.csproj|solutionrelative:spantechtask\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{131FC603-664F-45C4-B80C-3294F8253E7C}|SpanTechTask\\SpanTechTask.csproj|c:\\users\\sathishkumar\\source\\repos\\spantechtask\\spantechtask\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{131FC603-664F-45C4-B80C-3294F8253E7C}|SpanTechTask\\SpanTechTask.csproj|solutionrelative:spantechtask\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{131FC603-664F-45C4-B80C-3294F8253E7C}|SpanTechTask\\SpanTechTask.csproj|c:\\users\\sathishkumar\\source\\repos\\spantechtask\\spantechtask\\repository\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{131FC603-664F-45C4-B80C-3294F8253E7C}|SpanTechTask\\SpanTechTask.csproj|solutionrelative:spantechtask\\repository\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{131FC603-664F-45C4-B80C-3294F8253E7C}|SpanTechTask\\SpanTechTask.csproj|c:\\users\\sathishkumar\\source\\repos\\spantechtask\\spantechtask\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{131FC603-664F-45C4-B80C-3294F8253E7C}|SpanTechTask\\SpanTechTask.csproj|solutionrelative:spantechtask\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{131FC603-664F-45C4-B80C-3294F8253E7C}|SpanTechTask\\SpanTechTask.csproj|c:\\users\\sathishkumar\\source\\repos\\spantechtask\\spantechtask\\nlog.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
@@ -69,10 +73,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{131FC603-664F-45C4-B80C-3294F8253E7C}|SpanTechTask\\SpanTechTask.csproj|c:\\users\\sathishkumar\\source\\repos\\spantechtask\\spantechtask\\models\\employeemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{131FC603-664F-45C4-B80C-3294F8253E7C}|SpanTechTask\\SpanTechTask.csproj|solutionrelative:spantechtask\\models\\employeemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{131FC603-664F-45C4-B80C-3294F8253E7C}|SpanTechTask\\SpanTechTask.csproj|c:\\users\\sathishkumar\\source\\repos\\spantechtask\\spantechtask\\internal-nlog.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{131FC603-664F-45C4-B80C-3294F8253E7C}|SpanTechTask\\SpanTechTask.csproj|solutionrelative:spantechtask\\internal-nlog.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{131FC603-664F-45C4-B80C-3294F8253E7C}|SpanTechTask\\SpanTechTask.csproj|c:\\users\\sathishkumar\\source\\repos\\spantechtask\\spantechtask\\spantechtask.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
@@ -91,10 +91,6 @@
       "RelativeMoniker": "D:0:0:{131FC603-664F-45C4-B80C-3294F8253E7C}|SpanTechTask\\SpanTechTask.csproj|solutionrelative:spantechtask\\models\\employeeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{131FC603-664F-45C4-B80C-3294F8253E7C}|SpanTechTask\\SpanTechTask.csproj|c:\\users\\sathishkumar\\source\\repos\\spantechtask\\spantechtask\\dbscripts\\span.employees.table.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
-      "RelativeMoniker": "D:0:0:{131FC603-664F-45C4-B80C-3294F8253E7C}|SpanTechTask\\SpanTechTask.csproj|solutionrelative:spantechtask\\dbscripts\\span.employees.table.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{131FC603-664F-45C4-B80C-3294F8253E7C}|SpanTechTask\\SpanTechTask.csproj|c:\\users\\sathishkumar\\source\\repos\\spantechtask\\spantechtask\\dbscripts\\span.schema.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
       "RelativeMoniker": "D:0:0:{131FC603-664F-45C4-B80C-3294F8253E7C}|SpanTechTask\\SpanTechTask.csproj|solutionrelative:spantechtask\\dbscripts\\span.schema.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     }
@@ -106,11 +102,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 5,
               "Title": "EmployeeService.cs",
               "DocumentMoniker": "C:\\Users\\SATHISHKUMAR\\source\\repos\\SpanTechTask\\SpanTechTask\\Services\\EmployeeService.cs",
               "RelativeDocumentMoniker": "SpanTechTask\\Services\\EmployeeService.cs",
@@ -119,11 +115,116 @@
               "ViewState": "AgIAAAIAAAAAAAAAAAAswBsAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-04T19:26:09.575Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\SATHISHKUMAR\\source\\repos\\SpanTechTask\\SpanTechTask\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "SpanTechTask\\Services\\TokenService.cs",
+              "ToolTip": "C:\\Users\\SATHISHKUMAR\\source\\repos\\SpanTechTask\\SpanTechTask\\Services\\TokenService.cs",
+              "RelativeToolTip": "SpanTechTask\\Services\\TokenService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAhwBoAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T20:27:51.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Base64EncryptionService.cs",
+              "DocumentMoniker": "C:\\Users\\SATHISHKUMAR\\source\\repos\\SpanTechTask\\SpanTechTask\\Services\\Base64EncryptionService.cs",
+              "RelativeDocumentMoniker": "SpanTechTask\\Services\\Base64EncryptionService.cs",
+              "ToolTip": "C:\\Users\\SATHISHKUMAR\\source\\repos\\SpanTechTask\\SpanTechTask\\Services\\Base64EncryptionService.cs",
+              "RelativeToolTip": "SpanTechTask\\Services\\Base64EncryptionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T16:30:41.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginRepositroy.cs",
+              "DocumentMoniker": "C:\\Users\\SATHISHKUMAR\\source\\repos\\SpanTechTask\\SpanTechTask\\Repository\\LoginRepositroy.cs",
+              "RelativeDocumentMoniker": "SpanTechTask\\Repository\\LoginRepositroy.cs",
+              "ToolTip": "C:\\Users\\SATHISHKUMAR\\source\\repos\\SpanTechTask\\SpanTechTask\\Repository\\LoginRepositroy.cs",
+              "RelativeToolTip": "SpanTechTask\\Repository\\LoginRepositroy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T18:29:10.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminRepository.cs",
+              "DocumentMoniker": "C:\\Users\\SATHISHKUMAR\\source\\repos\\SpanTechTask\\SpanTechTask\\Repository\\AdminRepository.cs",
+              "RelativeDocumentMoniker": "SpanTechTask\\Repository\\AdminRepository.cs",
+              "ToolTip": "C:\\Users\\SATHISHKUMAR\\source\\repos\\SpanTechTask\\SpanTechTask\\Repository\\AdminRepository.cs",
+              "RelativeToolTip": "SpanTechTask\\Repository\\AdminRepository.cs",
+              "ViewState": "AgIAAJIAAAAAAAAAAAAswKQAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T18:19:44.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\SATHISHKUMAR\\source\\repos\\SpanTechTask\\SpanTechTask\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "SpanTechTask\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\SATHISHKUMAR\\source\\repos\\SpanTechTask\\SpanTechTask\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "SpanTechTask\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwCcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T19:16:11.512Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\SATHISHKUMAR\\source\\repos\\SpanTechTask\\SpanTechTask\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "SpanTechTask\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\SATHISHKUMAR\\source\\repos\\SpanTechTask\\SpanTechTask\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "SpanTechTask\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwBEAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T20:29:28.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "internal-nlog.txt",
+              "DocumentMoniker": "C:\\Users\\SATHISHKUMAR\\source\\repos\\SpanTechTask\\SpanTechTask\\internal-nlog.txt",
+              "RelativeDocumentMoniker": "SpanTechTask\\internal-nlog.txt",
+              "ToolTip": "C:\\Users\\SATHISHKUMAR\\source\\repos\\SpanTechTask\\SpanTechTask\\internal-nlog.txt",
+              "RelativeToolTip": "SpanTechTask\\internal-nlog.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-03-05T20:48:04.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\SATHISHKUMAR\\source\\repos\\SpanTechTask\\SpanTechTask\\Program.cs",
+              "RelativeDocumentMoniker": "SpanTechTask\\Program.cs",
+              "ToolTip": "C:\\Users\\SATHISHKUMAR\\source\\repos\\SpanTechTask\\SpanTechTask\\Program.cs",
+              "RelativeToolTip": "SpanTechTask\\Program.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAACMAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T19:31:33.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "span.Schema.sql ",
               "DocumentMoniker": "C:\\Users\\SATHISHKUMAR\\source\\repos\\SpanTechTask\\SpanTechTask\\DbScripts\\span.Schema.sql",
               "RelativeDocumentMoniker": "SpanTechTask\\DbScripts\\span.Schema.sql",
@@ -135,68 +236,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "span.Employees.Table.sql ",
-              "DocumentMoniker": "C:\\Users\\SATHISHKUMAR\\source\\repos\\SpanTechTask\\SpanTechTask\\DbScripts\\span.Employees.Table.sql",
-              "RelativeDocumentMoniker": "SpanTechTask\\DbScripts\\span.Employees.Table.sql",
-              "ToolTip": "C:\\Users\\SATHISHKUMAR\\source\\repos\\SpanTechTask\\SpanTechTask\\DbScripts\\span.Employees.Table.sql",
-              "RelativeToolTip": "SpanTechTask\\DbScripts\\span.Employees.Table.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-03-07T16:14:15.08Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TokenService.cs",
-              "DocumentMoniker": "C:\\Users\\SATHISHKUMAR\\source\\repos\\SpanTechTask\\SpanTechTask\\Services\\TokenService.cs",
-              "RelativeDocumentMoniker": "SpanTechTask\\Services\\TokenService.cs",
-              "ToolTip": "C:\\Users\\SATHISHKUMAR\\source\\repos\\SpanTechTask\\SpanTechTask\\Services\\TokenService.cs",
-              "RelativeToolTip": "SpanTechTask\\Services\\TokenService.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAawBoAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T20:27:51.652Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\SATHISHKUMAR\\source\\repos\\SpanTechTask\\SpanTechTask\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "SpanTechTask\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\SATHISHKUMAR\\source\\repos\\SpanTechTask\\SpanTechTask\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "SpanTechTask\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAuwBsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T20:29:28.828Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EmployeeController.cs",
-              "DocumentMoniker": "C:\\Users\\SATHISHKUMAR\\source\\repos\\SpanTechTask\\SpanTechTask\\Controllers\\EmployeeController.cs",
-              "RelativeDocumentMoniker": "SpanTechTask\\Controllers\\EmployeeController.cs",
-              "ToolTip": "C:\\Users\\SATHISHKUMAR\\source\\repos\\SpanTechTask\\SpanTechTask\\Controllers\\EmployeeController.cs",
-              "RelativeToolTip": "SpanTechTask\\Controllers\\EmployeeController.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAgwCcAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T19:16:11.512Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "C:\\Users\\SATHISHKUMAR\\source\\repos\\SpanTechTask\\SpanTechTask\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "SpanTechTask\\Controllers\\AdminController.cs",
-              "ToolTip": "C:\\Users\\SATHISHKUMAR\\source\\repos\\SpanTechTask\\SpanTechTask\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "SpanTechTask\\Controllers\\AdminController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T18:10:40.852Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "AdminService.cs",
               "DocumentMoniker": "C:\\Users\\SATHISHKUMAR\\source\\repos\\SpanTechTask\\SpanTechTask\\Services\\AdminService.cs",
               "RelativeDocumentMoniker": "SpanTechTask\\Services\\AdminService.cs",
@@ -208,31 +248,30 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\SATHISHKUMAR\\source\\repos\\SpanTechTask\\SpanTechTask\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "SpanTechTask\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\SATHISHKUMAR\\source\\repos\\SpanTechTask\\SpanTechTask\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "SpanTechTask\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T18:10:40.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "span.Employees.Table.sql",
+              "DocumentMoniker": "C:\\Users\\SATHISHKUMAR\\source\\repos\\SpanTechTask\\SpanTechTask\\DbScripts\\span.Employees.Table.sql",
+              "RelativeDocumentMoniker": "SpanTechTask\\DbScripts\\span.Employees.Table.sql",
+              "ToolTip": "C:\\Users\\SATHISHKUMAR\\source\\repos\\SpanTechTask\\SpanTechTask\\DbScripts\\span.Employees.Table.sql",
+              "RelativeToolTip": "SpanTechTask\\DbScripts\\span.Employees.Table.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-03-07T16:14:15.08Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "Base64EncryptionService.cs",
-              "DocumentMoniker": "C:\\Users\\SATHISHKUMAR\\source\\repos\\SpanTechTask\\SpanTechTask\\Services\\Base64EncryptionService.cs",
-              "RelativeDocumentMoniker": "SpanTechTask\\Services\\Base64EncryptionService.cs",
-              "ToolTip": "C:\\Users\\SATHISHKUMAR\\source\\repos\\SpanTechTask\\SpanTechTask\\Services\\Base64EncryptionService.cs",
-              "RelativeToolTip": "SpanTechTask\\Services\\Base64EncryptionService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T16:30:41.261Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\SATHISHKUMAR\\source\\repos\\SpanTechTask\\SpanTechTask\\Program.cs",
-              "RelativeDocumentMoniker": "SpanTechTask\\Program.cs",
-              "ToolTip": "C:\\Users\\SATHISHKUMAR\\source\\repos\\SpanTechTask\\SpanTechTask\\Program.cs",
-              "RelativeToolTip": "SpanTechTask\\Program.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAlwCMAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T19:31:33.375Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\SATHISHKUMAR\\source\\repos\\SpanTechTask\\SpanTechTask\\appsettings.json",
               "RelativeDocumentMoniker": "SpanTechTask\\appsettings.json",
@@ -244,19 +283,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AdminRepository.cs",
-              "DocumentMoniker": "C:\\Users\\SATHISHKUMAR\\source\\repos\\SpanTechTask\\SpanTechTask\\Repository\\AdminRepository.cs",
-              "RelativeDocumentMoniker": "SpanTechTask\\Repository\\AdminRepository.cs",
-              "ToolTip": "C:\\Users\\SATHISHKUMAR\\source\\repos\\SpanTechTask\\SpanTechTask\\Repository\\AdminRepository.cs",
-              "RelativeToolTip": "SpanTechTask\\Repository\\AdminRepository.cs",
-              "ViewState": "AgIAAJIAAAAAAAAAAAAswKQAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T18:19:44.455Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "EmployeeRepository.cs",
               "DocumentMoniker": "C:\\Users\\SATHISHKUMAR\\source\\repos\\SpanTechTask\\SpanTechTask\\Repository\\EmployeeRepository.cs",
               "RelativeDocumentMoniker": "SpanTechTask\\Repository\\EmployeeRepository.cs",
@@ -268,19 +295,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "LoginRepositroy.cs",
-              "DocumentMoniker": "C:\\Users\\SATHISHKUMAR\\source\\repos\\SpanTechTask\\SpanTechTask\\Repository\\LoginRepositroy.cs",
-              "RelativeDocumentMoniker": "SpanTechTask\\Repository\\LoginRepositroy.cs",
-              "ToolTip": "C:\\Users\\SATHISHKUMAR\\source\\repos\\SpanTechTask\\SpanTechTask\\Repository\\LoginRepositroy.cs",
-              "RelativeToolTip": "SpanTechTask\\Repository\\LoginRepositroy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T18:29:10.292Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "nlog.config",
               "DocumentMoniker": "C:\\Users\\SATHISHKUMAR\\source\\repos\\SpanTechTask\\SpanTechTask\\nlog.config",
               "RelativeDocumentMoniker": "SpanTechTask\\nlog.config",
@@ -292,19 +307,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "internal-nlog.txt",
-              "DocumentMoniker": "C:\\Users\\SATHISHKUMAR\\source\\repos\\SpanTechTask\\SpanTechTask\\internal-nlog.txt",
-              "RelativeDocumentMoniker": "SpanTechTask\\internal-nlog.txt",
-              "ToolTip": "C:\\Users\\SATHISHKUMAR\\source\\repos\\SpanTechTask\\SpanTechTask\\internal-nlog.txt",
-              "RelativeToolTip": "SpanTechTask\\internal-nlog.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAALIFAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-03-05T20:48:04.041Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "LoginModel.cs",
               "DocumentMoniker": "C:\\Users\\SATHISHKUMAR\\source\\repos\\SpanTechTask\\SpanTechTask\\Models\\LoginModel.cs",
               "RelativeDocumentMoniker": "SpanTechTask\\Models\\LoginModel.cs",
@@ -316,7 +319,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "EmployeeModel.cs",
               "DocumentMoniker": "C:\\Users\\SATHISHKUMAR\\source\\repos\\SpanTechTask\\SpanTechTask\\Models\\EmployeeModel.cs",
               "RelativeDocumentMoniker": "SpanTechTask\\Models\\EmployeeModel.cs",
